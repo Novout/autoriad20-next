@@ -1,0 +1,19 @@
+{
+  "name": "autoriad20-next",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vitepress dev docs --port 3000",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
+  },
+  "devDependencies": {
+    "unocss": "^0.45.14",
+    "unplugin-vue-components": "^0.22.4",
+    "vite": "^3.0.9",
+    "vite-plugin-pwa": "^0.12.6",
+    "vitepress": "^1.0.0-alpha.13",
+    "vue": "^3.2.38"
+  }
+}
