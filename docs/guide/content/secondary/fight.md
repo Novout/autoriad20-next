@@ -1,3 +1,3 @@
 # Combate
 
-<t-s-fight />
+<s-fight />

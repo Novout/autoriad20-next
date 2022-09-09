@@ -6,4 +6,4 @@ Este componente implica a característica do sistema.
 
 - Se não depende de vitalidade, quer dizer que outras partes(diálogo ou exploração, por exemplo) possuem maior destaque.
 
-<t-p-vitality />
+<p-vitality />

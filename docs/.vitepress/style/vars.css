@@ -4,7 +4,7 @@
 
  :root {
     --vp-c-accent: #C1C9F5;
-    --vp-c-brand: #625975;
+    --vp-c-brand: #655c77;
     --vp-c-brand-light: #C1C9F5;
     --vp-c-brand-lighter: #C1C9F5;
     --vp-c-brand-dark: #625975;
@@ -35,13 +35,13 @@
    * -------------------------------------------------------------------------- */
   
   :root {
-    --vp-button-brand-border: var(--vp-c-brand-light);
+    --vp-button-brand-border: var(--vp-c-brand);
     --vp-button-brand-text: var(--vp-c-text-dark-1);
     --vp-button-brand-bg: var(--vp-c-brand);
     --vp-button-brand-hover-border: var(--vp-c-brand-light);
     --vp-button-brand-hover-text: var(--vp-c-text-dark-1);
     --vp-button-brand-hover-bg: var(--vp-c-brand-light);
-    --vp-button-brand-active-border: var(--vp-c-brand-light);
+    --vp-button-brand-active-border: var(--vp-c-brand);
     --vp-button-brand-active-text: var(--vp-c-text-dark-1);
     --vp-button-brand-active-bg: var(--vp-button-brand-bg);
   }
@@ -85,3 +85,22 @@
   .DocSearch {
     --docsearch-primary-color: var(--vp-c-brand) !important;
   }
+
+  /**
+   *
+   * */
+
+.image-container {
+  opacity: 0;
+  animation: opacityOn 2s ease-in forwards;
+  animation-delay: .25s;
+}
+
+@keyframes opacityOn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

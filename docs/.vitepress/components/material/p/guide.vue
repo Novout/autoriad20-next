@@ -54,23 +54,10 @@
       <lines>
         Este é o guia mais tradicional, seguindo uma lógica de construção baseado na experiência do usuário iniciante, inicialmente demonstrando um resumo básico do cenário (se necessário), segundamente ensinando como montar um personagem do começo ao fim, e terceiramente demonstrando o conteúdo por categorias.
       </lines>
-      <img 
-        src="../../../../assets/components/guide/wguideamodadacasa.png" 
-        alt="white-theme"
-        width="100%"
-      />
-      <img 
-        src="../../../../assets/components/guide/dguideamodadacasa.png" 
-        alt="dark-theme"
-        width="100%"
-      />
       <p><tbold>Cenário(Opcional):</tbold> Explicação geral sobre o cenário. Não recomendamos que utilize muitas páginas para não demonstrar muito conteúdo diretamente para o jogador. Se desejar, crie outro PDF (Livro do Mestre, por exemplo) e situe melhor os detalhes para o Mestre(se tiver) ter mais acesso a conteúdo especificamente do cenário.</p>
       <p><tbold>Introdução:</tbold> Aqui teremos o que é RPG, e como jogar. Se o seu cenário for muito específico, demonstre exemplos de mecânicas e eventos que os jogadores terão ao decorrer da jogatina. Se for um cRPG, discarte esta parte para explicar diretamente na gameplay, usando as outras partes para a criação de um documento exclusivamente para a equipe.</p>
       <p><tbold>Conteúdo:</tbold> Cada módulo secundário terá uma própria seção, seguindo a ordem do que o jogador necessita.</p>
       <p><tbold>Extras:</tbold> Apêndices e Conteúdo Adicional.</p>
-      <lines>
-        <p>Este componente disponibiliza um template de TiraniaD20 no <span>Homebrewery</span>, para acessá-lo <tlink link="https://homebrewery.naturalcrit.com/edit/1T-cHtMrgBKkhreSi9rfRm0TWcl6Wh6gKQb2NcGnzkyHd">clique aqui</tlink></p>
-      </lines>
       <lines>
         <tsub>Sub-Agrupamento - Descrição Interativa</tsub>
         <p>Ganhe a atenção do jogador exibindo uma leve demonstração de narrativa, e em seguindo situando o seu impacto no cenário.</p>

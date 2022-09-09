@@ -1,5 +1,5 @@
 <template>
-  <section class="__material-concept">
+  <section class="__material-concept gap-2">
     <span>{{ title }}</span>
     <slot />
   </section>

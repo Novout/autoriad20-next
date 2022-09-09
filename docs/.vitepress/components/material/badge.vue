@@ -15,5 +15,6 @@ p {
   padding: 0 6px;
   border-radius: 6px;
   pointer-events: none;
+  margin-left: 0.5rem;
 }
 </style>

@@ -4,4 +4,4 @@ O Guia é o componente que define a forma que a estrutura do projeto estará org
 
 **AutoriaD20** disponibiliza templates de modelo utilizando Homebrewery. Devido a isso, não necessita de exemplos, já que o template seria o exemplo principal. Se desejar, crie seu próprio PDF, utilizando o disponível apenas como referência.
 
-<t-p-guide />
+<p-guide />

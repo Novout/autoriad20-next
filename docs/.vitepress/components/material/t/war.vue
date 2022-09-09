@@ -75,7 +75,7 @@
         <p>Os personagens contam como um único hexágono, realizando suas ações normalmente em seus turnos. Se os personagens são de nível muito baixo(a ponto de não terem poder suficiente para afetar media-larga escala) agrupe com um token já existente.</p>
         <p>A forma que deve nivelar ou aplicar vitalidade depende dos componentes primários OU crie regras específicas se achar necessário.</p>
         <tcontainer :soft="true">
-          <p>M: O grupo de arqueiros está em estado Fraco.<p>
+          <p>M: O grupo de arqueiros está em estado Fraco</p>
           <p>J: Ok, irei conjurar Fúria Flamejante...</p>
         </tcontainer>
       </lines>

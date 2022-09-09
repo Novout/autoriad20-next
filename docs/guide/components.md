@@ -12,7 +12,7 @@ Os componentes funcionam como uma mera interface, onde o **criador** (quem está
 
 **AutoriaD20** apresenta os componentes separados em três setores necessários para que haja a execução de um sistema completo.
 
-<pages-componentsexample />
+<components-example />
 
 - Componentes primários representam as etapas obrigatórias para conseguir ter um sistema jogável, entre etapas de decisão de game design até a melhor experiência dos jogadores em relação ao cenário.
 
