@@ -3,7 +3,7 @@ import { version } from "../../package.json";
 
 export default defineConfig({
   lang: 'pt-BR',
-  title: `Autoria D20 - v${version}`,
+  title: `AutoriaD20 - v${version}`,
   description: 'test',
   lastUpdated: true,
   cleanUrls: 'with-subfolders',
@@ -55,7 +55,11 @@ export default defineConfig({
       next: 'Próxima Página'
     },
     lastUpdatedText: 'Atualizado em',
-    outlineTitle: 'Nesta Página'
+    outlineTitle: 'Nesta Página',
+    editLink: {
+      pattern: 'https://github.com/Novout/autoriad20-next/edit/main/docs/:path',
+      text: 'Proponha alterações para esta página!'
+    }
   }
 })
 
@@ -71,8 +75,8 @@ function sidebarGuide() {
       text: 'Introdução',
       collapsible: true,
       items: [
+        { text: 'O que é AutoriaD20', link: '/guide/' },
         { text: 'Componentes', link: '/guide/components' },
-        { text: 'Montagem', link: '/guide/mounting' },
         { text: 'Á Moda da Casa', link: '/guide/amdc' },
       ]
     },
