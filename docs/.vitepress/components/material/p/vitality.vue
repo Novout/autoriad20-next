@@ -1,6 +1,6 @@
 <template>
   <mainpage>
-    <cmpt title="Vitalidade: Á Moda da Casa">
+    <cmpt title="Vitalidade: À Moda da Casa">
       <concept title="Requisitos">
         <badge 
           title="Nenhum" 
@@ -88,9 +88,9 @@
           <p>J: Uh. Passei... Alguém me levanta ai na moral?</p>
         </tcontainer>
       </lines>
-      <p><tbold>Problemáticas:</tbold>- Obrigatoriedade de outros componentes a trabalhar em torno do conceito de vitalidade.</p>
-      <p><tbold>Adaptações:</tbold>- Se estiver usando o componente <titalic>Nivelamento: Á Moda da Casa</titalic>, o valor da barra de vitalidade também será um dado somatório por nível, aplicando este valor no máximo dos pontos de vida.</p>
-      <tarticle>- Utilizando o <titalic>Sub-Agrupamento - Morrendo</titalic>, pode adaptar para componentes terciários de estado/condição.</tarticle>
+      <p><tbold>Problemáticas:</tbold><danger>Obrigatoriedade de outros componentes a trabalhar em torno do conceito de vitalidade.</danger></p>
+      <p><tbold>Adaptações:</tbold><warning>Se estiver usando o componente <titalic>Nivelamento: À Moda da Casa</titalic>, o valor da barra de vitalidade também será um dado somatório por nível, aplicando este valor no máximo dos pontos de vida.</warning></p>
+      <tarticle><warning>Utilizando o <titalic>Sub-Agrupamento - Morrendo</titalic>, pode adaptar para componentes terciários de estado/condição.</warning></tarticle>
       <p><tbold>Exemplos:</tbold><tarticle>A <titalic>Barra de Vitalidade</titalic> de todos os personagens é igual, com o valor máximo de 10. A cada ataque sofrido, independente do tipo, perde -1 na barra. Ao chegar a 0, morre.</tarticle></p>
     </cmpt>
   </mainpage>

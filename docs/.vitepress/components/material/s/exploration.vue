@@ -1,6 +1,6 @@
 <template>
   <mainpage>
-    <cmpt title="Exploração: Á Moda da Casa">
+    <cmpt title="Exploração: À Moda da Casa">
       <concept title="Requisitos">
         <badge 
           title="Nenhum" 
@@ -79,7 +79,7 @@
       <lines>
         <tsub>Sub-Agrupamento - Localidade</tsub>
         <p>Além de criar regras para os biomas, considere também o tamanho dos povoados.</p>
-        <p>- Recomendado para cenários que existam nações, e não reinos.</p>
+        <p><warning>Recomendado para cenários que existam nações, e não reinos.</warning></p>
         <tcontainer :soft="true">
           <h3>Metrópole</h3>
           <p>- Não é possivel utilizar veículos acima de 60km/h.</p>
@@ -87,8 +87,8 @@
           <p>- A polícia local pode interferir rapidamente em caso de confusão.</p>
         </tcontainer>
       </lines>
-      <p><tbold>Problemáticas:</tbold>- Abordagem simplista.</p>
-      <p><tbold>Adaptações:</tbold><tarticle>- Componentes terciários de <titalic>Condições</titalic> podem ajudar na criação das regras.</tarticle></p>
+      <p><tbold>Problemáticas:</tbold><danger>Abordagem simplista e que causará problemas para cenários onde o clima e terreno são relevantes para a história.</danger></p>
+      <p><tbold>Adaptações:</tbold><warning>Componentes terciários de <titalic>Condições</titalic> podem ajudar na criação das regras.</warning></p>
       <p><tbold>Exemplos:</tbold><tarticle>
         - Criação de quatro biomas(neve, deserto, floresta temperada, selva) onde cada uma possui interações com certas raças que são nativas destes lugares.
       </tarticle></p>

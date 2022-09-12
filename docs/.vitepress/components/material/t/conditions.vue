@@ -1,6 +1,6 @@
 <template>
   <mainpage>
-    <cmpt title="Condição: Á Moda da Casa">
+    <cmpt title="Condição: À Moda da Casa">
       <concept title="Requisitos">
         <badge 
           title="Nenhum" 
@@ -93,9 +93,9 @@
           <p>- Caso o valor do Dano Perfurante equivale a metade da vida atual do alvo, aplique Sangramento por dois turnos.</p>
         </tcontainer>
       </lines>
-      <p><tbold>Problemáticas:</tbold>- A sua aplicabilidade depende(e somente) das suas escolhas em Padronização de Jogo e Rolagem.</p>
-      <p><tbold>Adaptações:</tbold>- Aplicar a temporização(duramento em turnos, por exemplo) diretamente nas condições, sem depender do contexto.</p>
-      <p>- Criar condições exclusivas para pertencer a componentes secundários(por exemplo, apenas a Classe Monge teria Dano Radiante, ou aplicaria Cegueira com a condição Cego.</p>
+      <p><tbold>Problemáticas:</tbold><danger>A sua aplicabilidade depende(e somente) das suas escolhas em Padronização de Jogo e Rolagem.</danger></p>
+      <p><tbold>Adaptações:</tbold><warning>Aplicar a temporização(duramento em turnos, por exemplo) diretamente nas condições, sem depender do contexto.</warning></p>
+      <p><warning>Criar condições exclusivas para pertencer a componentes secundários(por exemplo, apenas a Classe Monge teria Dano Radiante, ou aplicaria Cegueira com a condição Cego.</warning></p>
       <p><tbold>Exemplos:</tbold><tarticle>
         - Duas listas, uma com os Tipos de Dano(Congelante, Perfurante, Cortante, Psiônico...) e a outra com Efeitos(Sangramento, Atordoado, Cego, Voando...).
       </tarticle></p>

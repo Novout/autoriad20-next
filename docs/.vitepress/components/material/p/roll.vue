@@ -1,6 +1,6 @@
 <template>
   <mainpage>
-    <cmpt title="Rolagem: Á Moda da Casa">
+    <cmpt title="Rolagem: À Moda da Casa">
       <concept title="Requisitos">
         <badge 
           title="Nenhum" 
@@ -68,26 +68,24 @@
         />
       </concept>
       <lines>
-        <p>D20 mais encontrando em sistemas, seu valor dificilmente ultrapassa 30-35.</p>
-        <p>- Rolagens principais são obrigatoriamente D20.</p>
-        <p>- Rolagens para necessidades menores com D12,D10,D8,D6 e D4.</p>
-        <p>- Regras generalistas(por exemplo, a rolagem de looting) podem utilizar D100.</p>
+        <p>D20 tradicional. O valor somatório dificilmente ultrapassa 30-35.</p>
+        <p><info>Rolagens principais são obrigatoriamente D20.</info></p>
+        <p><info>Rolagens para necessidades menores com D12,D10,D8,D6 e D4.</info></p>
+        <p><info>Regras generalistas(por exemplo, a rolagem de looting) utilizam D100.</info></p>
       </lines>
       <lines>
         <tsub>Sub-Agrupamento - Vantagem e Desvantagem</tsub>
         <p>Determinados recursos podem aplicar Vantagem ou Desvantagem.</p>
         <p>Vantagem: Dois D20 são rolados, pegando o maior valor.</p>
         <p>Desvantagem: Dois D20 são rolados, pegando o menor valor.</p>
-        <p>- Não são somáveis, por exemplo, em caso de duas regras aplicarem Vantagem, os mesmos dois dados serão jogados, no lugar de três.</p>
+        <p><warning>Vantagem e Desvantagem não são somáveis, por exemplo, em caso de duas regras aplicarem Vantagem, os mesmos dois dados serão jogados, no lugar de três.</warning></p>
         <tcontainer :soft="true">
           <p>J: Por conta do Flanqueamento, irei rolar meu dois ataques com Vantagem...</p>
         </tcontainer>
       </lines>
       <lines>
         <tsub>Sub-Agrupamento - Crítico e Falha</tsub>
-        <p>Em rolagens de D20, 1 significa Falha e 20 significa Crítico</p>
-        <p>- Falha aplica efeito negativa mais impactante que apenas o erro.</p>
-        <p>- Crítico aplica efeito positivo mais impactante que apenas o acerto.</p>
+        <p>Em rolagens de D20, 1 significa Falha e 20 significa Crítico. Falha aplica efeito negativa mais impactante que apenas o erro enquanto Crítico aplica efeito positivo mais impactante que apenas o acerto.</p>
         <tcontainer :soft="true">
           <p>J: CRITEI MESTRE!</p>
           <p>M: ... rola os dados de dano adicionais...</p>
@@ -101,10 +99,10 @@
           <p>M: Algo do outro lado está segurando a porta... jogue 1d20 + Modificador de Força...</p>
         </tcontainer>
       </lines>
-      <p><tbold>Problemáticas:</tbold>- Dificuldade de equilibrar recursos em alto nível.</p>
-      <p><tbold>Adaptações:</tbold><tarticle>- Aproveitar os Sub-Agrupamentos para a criação de recursos terciários(condições, reações).</tarticle></p>
+      <p><tbold>Problemáticas:</tbold><danger>Dificuldade de equilibrar recursos em personagens de alto nível quanto utilizado componentes de Nivelamento de Alto Impacto.</danger></p>
+      <p><tbold>Adaptações:</tbold><warning>Aproveitar os Sub-Agrupamentos para a criação de recursos terciários (condições, reações).</warning></p>
       <p><tbold>Exemplos:</tbold><tarticle>
-        - A ação de <titalic>Ataque</titalic> rola com 1d20 + Bônus pelo nível do personagem. Ao acertar, role o valor na arma + o <titalic>Atributo</titalic> necessário.
+        A ação de <titalic>Ataque</titalic> rola com 1d20 + Bônus pelo nível do personagem. Ao acertar, role o valor na arma + o <titalic>Atributo</titalic> necessário.
       </tarticle></p>
     </cmpt>
   </mainpage>

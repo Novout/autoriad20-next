@@ -1,9 +1,9 @@
 <template>
   <mainpage>
-    <cmpt title="Combate: Á Moda da Casa">
+    <cmpt title="Combate: À Moda da Casa">
       <concept title="Requisitos">
         <badge 
-          title="Roleplay: Á Moda da Casa" 
+          title="Roleplay: À Moda da Casa" 
           bg="rgba(255,228,209, 1)"
           bg1="rgba(255,228,209, 0.3)"
           bg2="rgba(255,228,209, 0.2)"
@@ -108,14 +108,14 @@
         <p>Ação Bônus é realiza durante a ação normal, aproveitando uma "brecha de tempo".</p>
         <p>Ação Extra são situações específicas que personagens externos podem te conceder.</p>
         <tcontainer :soft="true">
-          <p>J: Com minha Ação Principal irei utilizar a ação Atacar, e com minha Ação Bônus posso curar 1d6 de um alaido próximo...</p>
+          <p>J: Com minha Ação Principal irei utilizar a ação Atacar, e com minha Ação Bônus posso curar 1d6 de um aliado próximo...</p>
         </tcontainer>
       </lines>
       <lines>
         <tsub>Sub-Agrupamento -Ações por Pontuação</tsub>
         <tbold>Mutualmente Exclusivo com Sub-Agrupamento - Ações Delimitadas</tbold>
         <p>O que o personagem pode realizar durante seu turno é denominada Ação, possuindo uma pontuação X para utilizar.</p>
-        <p>A pontuação depende do personagem(raça ou classe, por exemplo).</p>
+        <p>A pontuação depende do personagem (Raça ou Classe, por exemplo).</p>
         <p>Uma ação pode gastar mais de um ponto, dependendo diretamente de sua prioridade.</p>
         <tcontainer :soft="true">
           <p>J: Vou gastar todos os meus pontos de ação, no caso três, para realizar um Ataque Duplo...</p>
@@ -124,9 +124,9 @@
       <lines>
         <tsub>Sub-Agrupamento - Posicionamento Quadrático</tsub>
         <tbold>Mutualmente Exclusivo com Sub-Agrupamento - Posicionamento Hexagonal</tbold>
-        <p>Cada quadrado ocupa tamanho X(padrão 5 pés), podendo realizar ações de fronteira nos nove quadrados ao redor.</p>
-        <p>- A possibilidade de andar na diagonal depende do Mestre(ou o criador do sistema pode especificar). Em geral, não é recomendado.</p>
-        <p>- Recomendado que os personagens tenham uma movimentação base X por turno(padrão 30 pés)</p>
+        <p>Cada quadrado ocupa tamanho X (padrão 5 pés), podendo realizar ações de fronteira nos nove quadrados ao redor.</p>
+        <p><warning>A possibilidade de andar na diagonal depende do Mestre (ou o criador do sistema pode especificar como conteúdo bruto). Em geral, não é recomendado.</warning></p>
+        <p><warning>Recomendado que os personagens tenham uma movimentação base X por turno (por exemplo, 30 pés - 6 quadrados)</warning></p>
         <tcontainer :soft="true">
           <p>J: Posso movimentar oito quadrados... vou usar minha ação principal para dobrar a movimentação...</p>
         </tcontainer>
@@ -135,15 +135,15 @@
         <tsub>Sub-Agrupamento - Posicionamento Hexagonal</tsub>
         <tbold>Mutualmente Exclusivo com Sub-Agrupamento - Posicionamento Quadrático</tbold>
         <p>Cada hexágono ocupa tamanho X(padrão 5 pés), podendo realizar ações de fronteira nos nove quadrados ao redor.</p>
-        <p>- A movimentação na diagonal é permitida.</p>
-        <p>- Recomendado que os personagens tenham uma movimentação base X por turno(padrão 30 pés)</p>
+        <p><info>A movimentação na diagonal é permitida.</info></p>
+        <p><warning>Recomendado que os personagens tenham uma movimentação base X por turno (por exemplo, 30 pés - 6 quadrados)</warning></p>
         <tcontainer :soft="true">
           <p>J: Posso movimentar oito hexágonos... vou usar minha ação principal para dobrar a movimentação...</p>
         </tcontainer>
       </lines>
       <lines>
         <tsub>Sub-Agrupamento - Flanqueamento</tsub>
-        <p>Caso algum personagem esteja adjascente a pelo menos dois inimigos, é aplicado efeito negativo ao personagem.</p>
+        <p>Caso algum personagem esteja adjacente a pelo menos dois inimigos, é aplicado efeito negativo ao personagem.</p>
         <tcontainer :soft="true">
           <p>J: Estou Flanqueando Mestre, então meus sete ataques serão realizados com Vantagem...</p>
           <p>M: ...</p>
@@ -162,7 +162,7 @@
       <lines>
         <tsub>Sub-Agrupamento - Superioridade Clara</tsub>
         <p>Ao invés do boss contar na ordem de jogada, ele irá intercalar entre as jogadas dos aliados.</p>
-        <p>- Recomendado para lutas em alta escala.</p>
+        <p><info>Recomendado para lutas em alta escala.</info></p>
         <tcontainer :soft="true">
           <p>M: Tyr joga um raio de energia...</p>
           <p>J: Vou utilizar dois Ataques Rápidos como ação principal...</p>
@@ -171,8 +171,8 @@
       </lines>
       <lines>
         <tsub>Sub-Agrupamento - Ação Conjunta</tsub>
-        <p>Se o próximo na contagem da rodada também é aliado, ambos podem realizar as ações simultâneamente.</p>
-        <p>- Não é recomendado ter mais de dois jogadores realizando ações simultâneas pois pode ocorrer confusões.</p>
+        <p>Se o próximo na contagem da rodada também é aliado, ambos podem realizar as ações simultaneamente.</p>
+        <p><danger>Não é recomendado ter mais de dois jogadores realizando ações simultâneas pois pode ocorrer confusões.</danger></p>
         <tcontainer :soft="true">
           <p>J1: Use sua ação principal primeiro, e depois eu conjuro uma ação extra pra você...</p>
           <p>J2: Meu item aplica ação bônus para um Aliado, então conseguimos realizar cerca de...</p>
@@ -187,8 +187,8 @@
           <p>J: Mestre, irei gastar minha Exaustão para realizar uma ação bônus adicional...</p>
         </tcontainer>
       </lines>
-      <p><tbold>Problemáticas:</tbold>- Caso os jogadores tiverem muitas ações/recursos para utilizarem em suas rodadas, o tempo real para acabar um turno pode ser consideravelmente alto.</p>
-      <p><tbold>Adaptações:</tbold><tarticle>- Componentes Terciários podem mudar bruscamente o funcionamento do começo-meio-fim.</tarticle></p>
+      <p><tbold>Problemáticas:</tbold><danger>Caso os jogadores tiverem muitas ações/recursos para utilizarem em suas rodadas, o tempo real para acabar um turno pode ser consideravelmente alto.</danger></p>
+      <p><tbold>Adaptações:</tbold><warning>Componentes Terciários podem mudar bruscamente o funcionamento do começo-meio-fim.</warning></p>
       <p><tbold>Exemplos:</tbold><tarticle>
         - Os jogadores e o Mestre concordam quando o combate inicia, considerando o valor de <titalic>Atitude</titalic> para a ordem de rodadas. O combate termina quando uma das partes morre.
       </tarticle></p>

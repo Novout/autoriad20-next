@@ -1,6 +1,6 @@
-# Á Moda da Casa
+# À Moda da Casa
 
-*Á Moda da Casa* são os componentes referenciais de **AutoriaD20**, recomendados para criadores que não querem fugir do tradicional D20.
+*À Moda da Casa* são os componentes referenciais de **AutoriaD20**, recomendados para criadores que não querem fugir do tradicional D20.
 
 <info>
 Os componentes Á Moda da Casa em conjunto formam um sistema final e prático.

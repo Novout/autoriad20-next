@@ -1,6 +1,6 @@
 <template>
   <mainpage>
-    <cmpt title="Equipamento: Á Moda da Casa">
+    <cmpt title="Equipamento: À Moda da Casa">
       <concept title="Requisitos">
         <badge 
           title="Nenhum" 
@@ -68,9 +68,9 @@
         />
       </concept>
       <lines>
-        <p>Equipamento: Á Moda da Casa considera a ideia do "aventureiro feliz", ou algo do tipo.</p>
+        <p>Equipamento: À Moda da Casa considera a ideia do "aventureiro feliz", ou algo do tipo.</p>
         <p>Todos os itens genéricos são auto interpretativos, onde apenas os essenciais(armas, por exemplo) entram em consideração.</p>
-        <p>- Recomendado para sistemas que possui um foco simplista.</p>
+        <p><info>Recomendado para sistemas que possuem o foco simplista.</info></p>
         <tcontainer :soft="true">
           <p>J: Mestre, posso usar corda?</p>
           <p>M: Bem, você é um aventureiro... pode.</p>
@@ -87,8 +87,8 @@
           </ul>
         </tcontainer>
       </lines>
-      <p><tbold>Problemáticas:</tbold>- A inexistência de recursos disponíveis ao jogador pode dificultar a interpretação por parte dos jogadores.</p>
-      <p><tbold>Adaptações:</tbold>- Trate tudo o que puder como genérico.</p>
+      <p><tbold>Problemáticas:</tbold><danger>A inexistência de recursos disponíveis ao jogador pode dificultar a interpretação por parte dos jogadores.</danger></p>
+      <p><tbold>Adaptações:</tbold><warning>Trate tudo o que puder como genérico.</warning></p>
       <p><tbold>Exemplos:</tbold>
         <tarticle>
           - Disponibilizar apenas os itens iniciais, onde o Mestre futuramente pode criar seus próprios itens de looting.
@@ -164,7 +164,7 @@
       </concept>
       <lines>
         <p>Todo os itens possuem três características: título, descrição e como utilizá-lo.</p>
-        <p>- Recomendado para cenários que o conteúdo é muito divergente do tradicional mas que não exiga tanto detalhismo.</p>
+        <p><info>Recomendado para cenários que o conteúdo é muito divergente do tradicional mas que não exigia tanto detalhismo.</info></p>
         <tcontainer :soft="false">
           <h3>Lanterna Grande</h3>
           <ul>
@@ -184,8 +184,8 @@
           </ul>
         </tcontainer>
       </lines>
-      <p><tbold>Problemáticas:</tbold>- Descrições vagas podem dificultar a interpretação por parte dos jogadores.</p>
-      <p><tbold>Adaptações:</tbold>- Com o componente Condições é possivel implementar itens utilizando efeitos.</p>
+      <p><tbold>Problemáticas:</tbold><danger>Descrições vagas podem dificultar a interpretação por parte dos jogadores.</danger></p>
+      <p><tbold>Adaptações:</tbold><warning>Com o componente Condições é possível implementar itens utilizando efeitos.</warning></p>
       <p><tbold>Exemplos:</tbold>
         <tarticle>
           - Cada origem possui um conjunto de itens inicias, que todo habitante que já habitou pelas áreas possui. Além disso, uma lista de itens primários foi disponibilizada para uso geral.

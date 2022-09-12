@@ -1,9 +1,9 @@
 <template>
   <mainpage>
-    <cmpt title="Classe: Á Moda da Casa">
+    <cmpt title="Classe: À Moda da Casa">
       <concept title="Requisitos">
         <badge 
-          title="Nivelamento: Á Moda da Casa" 
+          title="Nivelamento: À Moda da Casa" 
           bg="rgba(255,228,209, 1)"
           bg1="rgba(255,228,209, 0.3)"
           bg2="rgba(255,228,209, 0.2)"
@@ -91,7 +91,7 @@
       </lines>
       <lines>
         <tsub>Sub-Agrupamento - Vitalidade Escalar</tsub>
-        <tbold>Exclusivo de Vitalidade: Á Moda da Casa</tbold>
+        <tbold>Exclusivo de Vitalidade: À Moda da Casa</tbold>
         <p>A classe recebe por cada nível 1dX valor de vitalidade. O valor é determinado pelo tipo de componente escolhido em Vitalidade.</p>
         <tcontainer :soft="false">
           <h3>Lutador</h3>
@@ -119,8 +119,8 @@
       <lines>
         <tsub>Sub-Agrupamento - Multiclasse</tsub>
         <p>Permite os jogadores utilizar duas classes simultaneamente, onde o nível do personagem é separado do nível da classe.</p>
-        <p>- Utilizando este componente, determina que os níveis devem aplicar bônus significantes para manter a harmonia do balanceamento.</p>
-        <p>- Não é recomendado para sistemas que não utilizam o componente <titalic>Combate</titalic>.</p>
+        <p><warning>Utilizando este componente, determina que os níveis devem aplicar bônus significantes para manter a harmonia do balanceamento.</warning></p>
+        <p><danger>Não é recomendado para sistemas que não utilizam o componente <titalic>Combate</titalic>.</danger></p>
         <tcontainer :soft="true">
           <h3>Skyria</h3>
           <ul>
@@ -130,8 +130,8 @@
           </ul>
         </tcontainer>
       </lines>
-      <p><tbold>Problemáticas:</tbold>- Exige um certo escopo da aplicabilidade do conceito de classe. Recomendamos que escolha os sub-atributos depois de definir outros componentes secundários e terciários.</p>
-      <p><tbold>Adaptações:</tbold><tarticle>- Diversos componentes podem ser anexados na classe e tem uma estrutura preparada para isso, não tenha medo de acrescentar conteúdo.</tarticle></p>
+      <p><tbold>Problemáticas:</tbold><danger>Exige um certo escopo da aplicabilidade do conceito de classe. Recomendamos que escolha os sub-atributos depois de definir outros componentes secundários e terciários.</danger></p>
+      <p><tbold>Adaptações:</tbold><warning>Diversos componentes podem ser anexados na classe e tem uma estrutura preparada para isso, não tenha medo de acrescentar conteúdo.</warning></p>
       <p><tbold>Exemplos:</tbold><tarticle>
         <tarticle>Em seguida uma representação fiel contendo diversos Sub-Agrupamentos.</tarticle>
         <tcontainer :soft="false">
@@ -297,8 +297,8 @@
       <lines>
         <tsub>Sub-Agrupamento - Multiclasse</tsub>
         <p>Permite os jogadores utilizar duas classes simultaneamente, escolhendo em qual árvore utilizará seus pontos.</p>
-        <p>- Utilizando este componente, determina que os níveis devem aplicar bônus significantes para manter a harmonia do balanceamento.</p>
-        <p>- Não é recomendado para sistemas que não utilizam o componente <titalic>Combate</titalic>.</p>
+        <p><warning>Utilizando este componente, determina que os níveis devem aplicar bônus significantes para manter a harmonia do balanceamento.</warning></p>
+        <p><danger>Não é recomendado para sistemas que não utilizam o componente <titalic>Combate</titalic>.</danger></p>
         <tcontainer :soft="true">
           <h3>Leto</h3>
           <ul>
@@ -308,8 +308,8 @@
           </ul>
         </tcontainer>
       </lines>
-      <p><tbold>Problemáticas:</tbold>- Exige um certo escopo da aplicabilidade do conceito de classe. Recomendamos que escolha os sub-atributos depois de definir outros componentes secundários e terciários.</p>
-      <p><tbold>Adaptações:</tbold><tarticle>- Nada te impede de criar requisitos para a escolha de módulos, inclusive utilizar recurso de outros componentes.</tarticle></p>
+      <p><tbold>Problemáticas:</tbold><danger>Exige um certo escopo da aplicabilidade do conceito de classe. Recomendamos que escolha os sub-atributos depois de definir outros componentes secundários e terciários.</danger></p>
+      <p><tbold>Adaptações:</tbold><warning>Nada te impede de criar requisitos para a escolha de módulos, inclusive utilizar recurso de outros componentes.</warning></p>
       <p><tbold>Exemplos:</tbold><tarticle>
         <tarticle>- Geto, Inventor Nvl 3, possui três pontos no Arquétipo: Mecanização, sendo eles 2-1, 2-2-1 e 2-2-2.</tarticle>
       </tarticle></p>

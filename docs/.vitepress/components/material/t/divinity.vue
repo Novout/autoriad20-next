@@ -1,6 +1,6 @@
 <template>
   <mainpage>
-    <cmpt title="Divindade: Á Moda da Casa">
+    <cmpt title="Divindade: À Moda da Casa">
       <concept title="Requisitos">
         <badge 
           title="Nenhum" 
@@ -77,7 +77,7 @@
       <lines>
         <tsub>Sub-Agrupamento - Poderes Divinos</tsub>
         <p>Cada divindade, mesmo no seu estado de ser vivo, possuem poderes.</p>
-        <p>- É recomendado que a divindade tenha uma ficha própria.</p>
+        <p><info>É recomendado que a divindade tenha uma ficha própria.</info></p>
         <tcontainer :soft="false">
           <h3>Alitha</h3>
           <ul>
@@ -87,8 +87,8 @@
           </ul>
         </tcontainer>
       </lines>
-      <p><tbold>Problemáticas:</tbold>- Por mais que tenha baixo impacto no sistema, o seu impacto no cenário é bem alto.</p>
-      <p><tbold>Adaptações:</tbold>- Tratar as Divindades como personagens jogáveis requer conteúdo exclusivo(classe, por exemplo).</p>
+      <p><tbold>Problemáticas:</tbold><danger>Por mais que tenha baixo impacto no sistema, o seu impacto no cenário é bem alto.</danger></p>
+      <p><tbold>Adaptações:</tbold><warning>Tratar as Divindades como personagens jogáveis requer conteúdo exclusivo (classe, por exemplo).</warning></p>
       <p><tbold>Exemplos:</tbold>
         <tarticle>
           - O Grupo PRIMA, com os membros Aelit, Vijad e Thortokir, possuem habilidades únicas e se completam na magnitude.

@@ -1,6 +1,6 @@
 <template>
   <mainpage>
-    <cmpt title="Magia: Á Moda da Casa">
+    <cmpt title="Magia: À Moda da Casa">
       <concept title="Requisitos">
         <badge 
           title="Nenhum" 
@@ -108,8 +108,8 @@
           </ul>
         </tcontainer>
       </lines>
-      <p><tbold>Problemáticas:</tbold>- Necessidade de equilíbrio, pois classes conjuradoras terão muitas opções pernamentemente á disposição.</p>
-      <p><tbold>Adaptações:</tbold>- Com o componente Condições é possivel implementar itens utilizando efeitos.</p>
+      <p><tbold>Problemáticas:</tbold><danger>Necessidade de equilíbrio, pois classes conjuradoras terão muitas opções permanentemente á disposição.</danger></p>
+      <p><tbold>Adaptações:</tbold><warning>Com o componente Condições é possível implementar itens utilizando efeitos.</warning></p>
       <p><tbold>Exemplos:</tbold>
         <tarticle>
           - Cada origem possui um conjunto de itens inicias, que todo habitante que já habitou pelas áreas possui. Além disso, uma lista de itens primários foi disponibilizada para uso geral.

@@ -1,6 +1,6 @@
 <template>
   <mainpage>
-    <cmpt title="Roleplay: Á Moda da Casa">
+    <cmpt title="Roleplay: À Moda da Casa">
       <concept title="Requisitos">
         <badge 
           title="Nenhum" 
@@ -61,42 +61,52 @@
       </concept>
       <lines>
         <p>Este é o roleplay tradicional, relacionado a interação de Mestre X Jogador, onde o jogador realiza uma ação, em seguida o mestre responde a ação e por último o jogador reage a alternativas da resposta do mestre, continuando o ciclo até finalizar o diálogo.</p>
-        <p>Não exige muitas explicações, pois é o método mais tradicional que os sitemas D20 disponibilizam.</p>
-        <p>A definição <titalic>Jogador CONTRA Mestre</titalic> pode parecer imprópria, mas a partir do ideal de que o Mestre é o suprassumo do contexto, e que qualquer desavença pode ser resolvida com um TPK acaba tornando a definição "aceitável".</p>
+        <p>Não exige muitas explicações, pois é o método mais tradicional que os sistemas D20 disponibilizam.</p>
+        <warning>
+          A definição <titalic>Jogador CONTRA Mestre</titalic> pode parecer imprópria, mas a partir do ideal de que o Mestre é o suprassumo do contexto, acaba tornando a definição "aceitável".
+        </warning>
       </lines>
       <lines>
         <tsub>Sub-Agrupamento - Pontos de Contexto</tsub>
         <p>Por cada boa interpretação, onde o critério é definido pelo Mestre, o jogador em destaque ganha 1 ponto de contexto.</p>
         <p>Os jogadores podem gastar pontos de contexto para interferir na existência da cena, por exemplo, adicionar um recurso que não foi descrito pelo mestre.</p>
-        <p>- Este tipo de sub-agrupamento exige certa discussão entre os jogadores e o Mestre sobre a mecânica, evitando desavenças.</p>
-        <p>- Não é recomendável para campanhas com personagens e plot's bem definidos.</p>
+        <warning>
+          Este tipo de sub-agrupamento exige certa discussão entre os jogadores e o Mestre sobre a mecânica, evitando desavenças
+        </warning>
+        <warning>
+          Não é recomendável para campanhas com personagens e plot's bem definidos.
+        </warning>
         <tcontainer :soft="true">
-          <p>M: Dois humanos, de mesma estatura, entram na tarverna...</p>
+          <p>M: Dois humanos, de mesma estatura, entram na taverna...</p>
           <p>J: Mestre, gasto um ponto de contexto para que um desses humanos seja um amigo distante do passado.</p>
-          <p>M: Ok... você rapidamente percebe, sem muito esforço, que o da direta é o...</p>
+          <p>M: Ok... você rapidamente percebe, sem muito esforço, que o humano da direta é o...</p>
         </tcontainer>
       </lines>
       <lines>
         <tsub>Sub-Agrupamento - Interferência de Diálogo</tsub>
         <p>Em uma discussão, o grupo pode optar por sempre utilizar o membro com melhores características para diálogo, assim todos os jogadores do grupo podem participar da discussão sem que sejam penalizados pelos seus personagens.</p>
-        <p>- Não é recomendável para sistemas com muitas mecânicas de conversa.</p>
-        <p>- Certos componentes não são permitidos de serem utilizados com esse sub-agrupamento.</p>
+        <warning>
+          Não é recomendável para sistemas com muitas mecânicas de conversa.
+        </warning>
+        <warning>
+          Certos componentes não são permitidos de serem utilizados com esse sub-agrupamento.
+        </warning>
         <tcontainer :soft="true">
           <p>M: Tarlla vem na direção do grupo...</p>
           <p>J: Posso rolar Percepção pelo grupo?</p>
           <p>M: Sim, pode utilizar o valor base do X personagem...</p>
         </tcontainer>
       </lines>
-      <p><tbold>Problemáticas:</tbold> - Certos componentes secundários e terciários são restritos a interações Mestre X Jogador.</p>
-      <p>- Limitação da criatividade dos jogadores</p>
-      <p>- O Mestre possui o total controle do universo.</p>
-      <p><tbold>Adaptações:</tbold>- Componentes terciários de discurso podem dar um pouco mais de voz aos jogadores.</p>
+      <p><tbold>Problemáticas:</tbold><danger>Certos componentes secundários e terciários são restritos à interações Mestre X Jogador.</danger></p>
+      <p><danger>Limitação da criatividade dos jogadores</danger></p>
+      <p><warning>O Mestre possui o total controle do universo.</warning></p>
+      <p><tbold>Adaptações:</tbold><warning>Componentes terciários de discurso podem dar um pouco mais de voz aos jogadores.</warning></p>
       <p><tbold>Exemplos:</tbold>Toda a narrativa não se distância de RPG's tradicionais:</p>
       <tcontainer :soft="true">
         <p>J: Mestre, posso utilizar a habilidade A para descobrir sons na região?</p>
         <p>M: Pode, lembre que sua classe permite rolar esse tipo de teste com vantagem.</p>
         <p>J: Ok, irei rolar com vantagem... 16 no dado.</p>
-        <p>M: Você percebe alguns barulhos distoantes do vento vindo da direção B...</p>
+        <p>M: Você percebe alguns barulhos distantes do vento vindo da direção B...</p>
       </tcontainer>
     </cmpt>
   </mainpage>

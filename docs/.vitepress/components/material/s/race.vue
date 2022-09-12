@@ -1,6 +1,6 @@
 <template>
   <mainpage>
-    <cmpt title="Raça: Á Moda da Casa">
+    <cmpt title="Raça: À Moda da Casa">
       <concept title="Requisitos">
         <badge 
           title="Nenhum" 
@@ -138,8 +138,8 @@
           </ul>
         </tcontainer>
       </lines>
-      <p><tbold>Problemáticas:</tbold>- Personagens no nível inicial já são consideravelmente fortes, devido a quantidade de qualidade disponível.</p>
-      <p><tbold>Adaptações:</tbold><tarticle>Ao utilizar <titalic>Padronização: Á Moda da Casa</titalic>, não dê bônus somatório diretamente ao recurso único, e sim bônus que acompanham a característica do personagem(bônus de resistência a dano congelante para um ser robótico, por exemplo).</tarticle></p>
+      <p><tbold>Problemáticas:</tbold><danger>Personagens no nível inicial já são consideravelmente fortes, devido a quantidade de qualidade disponível.</danger></p>
+      <p><tbold>Adaptações:</tbold><warning>Ao utilizar <titalic>Padronização: À Moda da Casa</titalic>, não dê bônus somatório diretamente ao recurso único, e sim bônus que acompanham a característica do personagem (bônus de resistência a dano congelante para um ser robótico, por exemplo).</warning></p>
       <tarticle></tarticle>
       <p><tbold>Exemplos:</tbold><tarticle>
         Se utilizar <titalic>Sub-Agrupamento - Características Genéricas</titalic> podemos definir o tamanho entre <titalic>Pequeno, Médio, Grande</titalic>, onde cada tamanho ocupa determinado espaço no campo de batalha definido no componente <titalic>Combate</titalic>.

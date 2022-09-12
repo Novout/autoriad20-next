@@ -1,6 +1,6 @@
 <template>
   <mainpage>
-    <cmpt title="Guerra: Á Moda da Casa">
+    <cmpt title="Guerra: À Moda da Casa">
       <concept title="Requisitos">
         <badge 
           title="Nenhum" 
@@ -60,7 +60,7 @@
         />
       </concept>
       <lines>
-        <p>O componente "Á Moda da Casa" de TiraniaD20 não podia ser diferente de grandes opções para batalhas.</p>
+        <p>O componente "À Moda da Casa" de TiraniaD20 não podia ser diferente de grandes opções para batalhas.</p>
         <p>Por ser um componente muito especificado, dividimos todos os recursos em Sub-Agrupamentos, permitindo o criador maior maleabilidade.</p>
         <tcontainer :soft="true">
           <p>M: ...exércitos do sul cruzaram o Yaruga novamente...</p>
@@ -73,14 +73,14 @@
         <p>Em um mapa hexagonal do local(o tamanho depende do tamanho da região, mas este componente não foi feito para grandes distâncias) os tokens são conjuntos de tropas.</p>
         <p>Os conjuntos possuem o mesmo poder(se possível) juntando grupos parecidos(100 guerreiros, 10  catapultas, 5 magos), onde as mecânicas de combate direto são definidas pelo criador.</p>
         <p>Os personagens contam como um único hexágono, realizando suas ações normalmente em seus turnos. Se os personagens são de nível muito baixo(a ponto de não terem poder suficiente para afetar media-larga escala) agrupe com um token já existente.</p>
-        <p>A forma que deve nivelar ou aplicar vitalidade depende dos componentes primários OU crie regras específicas se achar necessário.</p>
+        <p><warning>A forma que deve nivelar ou aplicar vitalidade depende dos componentes primários OU crie regras específicas se achar necessário.</warning></p>
         <tcontainer :soft="true">
           <p>M: O grupo de arqueiros está em estado Fraco</p>
           <p>J: Ok, irei conjurar Fúria Flamejante...</p>
         </tcontainer>
       </lines>
-      <p><tbold>Problemáticas:</tbold>- Uma batalha inteira pode ocupar um tempo maior do que o planejado.</p>
-      <p><tbold>Adaptações:</tbold>- Adaptar as regras escolhidas no componente de Combate para as batalhas.</p>
+      <p><tbold>Problemáticas:</tbold><danger>Uma batalha inteira pode ocupar um tempo maior do que o planejado.</danger></p>
+      <p><tbold>Adaptações:</tbold><warning>Adaptar as regras escolhidas no componente de Combate para as batalhas.</warning></p>
       <p><tbold>Exemplos:</tbold>
         <tarticle>
           - Uma grande revolução inicia ao mesmo tempo em que os heróis estão na cidade. Agora, precisam escolher um dos lados...

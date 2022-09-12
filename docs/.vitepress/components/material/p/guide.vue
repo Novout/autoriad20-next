@@ -1,6 +1,6 @@
 <template>
   <mainpage>
-    <cmpt title="Guia: Á Moda da Casa">
+    <cmpt title="Guia: À Moda da Casa">
       <concept title="Requisitos">
         <badge 
           title="Nenhum" 
@@ -52,16 +52,16 @@
         />
       </concept>
       <lines>
-        Este é o guia mais tradicional, seguindo uma lógica de construção baseado na experiência do usuário iniciante, inicialmente demonstrando um resumo básico do cenário (se necessário), segundamente ensinando como montar um personagem do começo ao fim, e terceiramente demonstrando o conteúdo por categorias.
+        Este é o guia mais tradicional, seguindo uma lógica de construção baseado na experiência do usuário iniciante, primeiramente demonstrando um resumo básico do cenário (se necessário), segundamente ensinando como montar um personagem do começo ao fim, e terceiramente demonstrando o conteúdo por categorias.
       </lines>
       <p><tbold>Cenário(Opcional):</tbold> Explicação geral sobre o cenário. Não recomendamos que utilize muitas páginas para não demonstrar muito conteúdo diretamente para o jogador. Se desejar, crie outro PDF (Livro do Mestre, por exemplo) e situe melhor os detalhes para o Mestre(se tiver) ter mais acesso a conteúdo especificamente do cenário.</p>
-      <p><tbold>Introdução:</tbold> Aqui teremos o que é RPG, e como jogar. Se o seu cenário for muito específico, demonstre exemplos de mecânicas e eventos que os jogadores terão ao decorrer da jogatina. Se for um cRPG, discarte esta parte para explicar diretamente na gameplay, usando as outras partes para a criação de um documento exclusivamente para a equipe.</p>
-      <p><tbold>Conteúdo:</tbold> Cada módulo secundário terá uma própria seção, seguindo a ordem do que o jogador necessita.</p>
+      <p><tbold>Introdução:</tbold> Aqui teremos o que é RPG, e como jogar. Se o seu cenário for muito específico, demonstre exemplos de mecânicas e eventos que os jogadores terão ao decorrer da jogatina. Se for um cRPG, descarte esta parte para explicar diretamente na gameplay, usando as outras partes para a criação de um documento exclusivamente para a equipe.</p>
+      <p><tbold>Conteúdo:</tbold> Cada módulo secundário terá uma própria seção, seguindo a ordem do que o jogador necessita. Recomendamos</p>
       <p><tbold>Extras:</tbold> Apêndices e Conteúdo Adicional.</p>
       <lines>
         <tsub>Sub-Agrupamento - Descrição Interativa</tsub>
         <p>Ganhe a atenção do jogador exibindo uma leve demonstração de narrativa, e em seguindo situando o seu impacto no cenário.</p>
-        <p>Desta forma o jogador tem uma melhor percepção do que poderá realizar com aquela classe, e se é realmente o que deseja, evitando quebras de espectativa.</p>
+        <p>Desta forma o jogador tem uma melhor percepção do que poderá realizar com aquela classe, e se é realmente o que deseja, evitando quebras de expectativa.</p>
         <p>Recomendado para cenários que fogem de RPG's tradicionais.</p>
         <tcontainer :soft="true">
           <h3>Skyro</h3>
@@ -69,10 +69,10 @@
           <span>Skyro, o povo desconhecido entre eles mesmos. Possuem o dom da ilusão e da retórica, transformando em um piscar de olhos no que quiserem e como quiserem. Poucos sabem do conhecimento deles, e menos ainda das suas reais aparências.</span>
         </tcontainer>
       </lines>
-      <p><tbold>Problemáticas:</tbold> Este componente é o mais genérico, devido a isso é o melhor componente para iniciantes construirem seus personagens, mas não para eles consultarem.</p>
-      <p>A forma de separar itens em componentes em diferentes seções que dependem entre si faz o leitor a ficar 'viajando' nas páginas, podendo confundir principalmente quem não está acostumado com o documento do seu sistema.</p>
-      <p>Por exemplo, se o jogador ficar em dúvida entre classes conjuradoras, ele terá que consultar diversas vezes as páginas distantes do componente terciário de magia, e isso sem sequer começar a jogar.</p>
-      <p><tbold>Adaptações:</tbold>- É possível colocar o cenário junto na seção de extras, ou seja, no final e não no começo.</p>
+      <p><tbold>Problemáticas:</tbold> <danger>Este componente é o mais genérico, devido a isso é o melhor componente para iniciantes construírem seus personagens, mas não para eles consultarem.</danger></p>
+      <p><danger>A forma de separar os itens em componentes e em diferentes seções que dependem entre si faz o leitor ficar 'viajando' nas páginas, podendo confundir principalmente quem não está acostumado com o documento.</danger></p>
+      <p><danger>Por exemplo, se o jogador ficar em dúvida entre classes conjuradoras, ele terá que consultar diversas vezes as páginas distantes do componente terciário de magia, e isso sem sequer começar a jogar.</danger></p>
+      <p><tbold>Adaptações:</tbold><warning>É possível colocar o cenário junto na seção de extras, ou seja, no final e não no começo.</warning></p>
     </cmpt>
   </mainpage>
 </template>

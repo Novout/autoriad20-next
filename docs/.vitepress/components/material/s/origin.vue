@@ -1,6 +1,6 @@
 <template>
   <mainpage>
-    <cmpt title="Origem: Á Moda da Casa">
+    <cmpt title="Origem: À Moda da Casa">
       <concept title="Requisitos">
         <badge 
           title="Nenhum" 
@@ -77,9 +77,7 @@
       </concept>
       <lines>
         <p>Esta origem determina a região que o personagem passou a maior parte de sua vida, e a onde aprendeu a maioria de seus truques.</p>
-        <p>Separamos entre os bônus: Bônus de Região e Bônus de Aprendizado.</p>
-        <p>Bônus de Região é apenas o que qualquer membro da região aprende involuntariamente.</p>
-        <p>Bônus de Aprendizado é a especialização durante uma fase de sua vida. É recomendável que tenha várias opções para o jogador escolher, assim adaptando o passado do personagem ao resultado final.</p>
+        <p>Separado entre os bônus: Bônus de Região e Bônus de Aprendizado. Bônus de Região é apenas o que qualquer membro da região aprende involuntariamente e o Bônus de Aprendizado é a especialização durante uma fase de sua vida. É recomendável que tenha várias opções para o jogador escolher, assim adaptando o passado do personagem ao resultado final.</p>
         <tcontainer :soft="false">
           <h3>Planeta Arrakis</h3>
           Bônus de Região:
@@ -109,9 +107,9 @@
           // ...
         </tcontainer>
       </lines>
-      <p><tbold>Problemáticas:</tbold>- Origens pode atrapalhar a montagem de personagem. Recomendamos disponibilizar diversas opções de Origem, ou que elas tenham pouco impacto.</p>
-      <p><tbold>Adaptações:</tbold><tarticle>- A Origem pode implicar em outros módulos secundários(como raça que existe apenas em um local, por exemplo).</tarticle></p>
-      <p><tbold>Exemplos:</tbold>- Divindo entre cinco origens(Arkato, Ellinder, Os Arruinados, Amelo, Fisarth) podemos colocar um único Bônus de Região e integrar componentes terciários relacionado a itens para os Bônus de Aprendizado.</p>
+      <p><tbold>Problemáticas:</tbold><danger>Origens pode atrapalhar a montagem de personagem. Recomendamos disponibilizar diversas opções de Origem, ou que elas tenham pouco impacto.</danger></p>
+      <p><tbold>Adaptações:</tbold><warning>A Origem pode implicar em outros módulos secundários(como raça que existe apenas em um local, por exemplo).</warning></p>
+      <p><tbold>Exemplos:</tbold>- Dividido entre cinco origens(Arkato, Ellinder, Os Arruinados, Amelo, Fisarth) podemos colocar um único Bônus de Região e integrar componentes terciários relacionado a itens para os Bônus de Aprendizado.</p>
     </cmpt>
     <cmpt title="Origem: Pontuação Acumulativa">
       <concept title="Requisitos">
@@ -225,8 +223,8 @@
           </ul>
         </tcontainer>
       </lines>
-      <p><tbold>Problemáticas:</tbold>- Difícil de balancear, principalmente ao utilizar o Sub-Agrupamento - Categorias.</p>
-      <p><tbold>Adaptações:</tbold><tarticle>- Nada te impede de criar requisitos para a escolha de módulos, inclusive utilizar recurso de outros componentes.</tarticle></p>
+      <p><tbold>Problemáticas:</tbold><danger>Difícil de balancear, principalmente ao utilizar o Sub-Agrupamento - Categorias.</danger></p>
+      <p><tbold>Adaptações:</tbold><warning>Nada te impede de criar requisitos para a escolha de módulos, inclusive utilizar recurso de outros componentes.</warning></p>
       <p><tbold>Exemplos:</tbold><tarticle>
         - Arttat, originário de Teneza, foi um Nobre da corte máxima, abandonou todos os seus privilégios para se aventurar como...
       </tarticle></p>
