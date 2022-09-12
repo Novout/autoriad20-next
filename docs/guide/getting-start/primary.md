@@ -1,10 +1,10 @@
 # Primeira Parte
 
-Iremos realizar uma sequência de perguntas e fases essenciais para definir a cara do sistema.
+Realizar uma sequência de perguntas e fases para definir a cara do sistema é essencial para entender as necessidades de seu jogo. Certas perguntas/fases estarão diretamente relacionadas com dicas ou a forma que deverá escrever as respostas. Anote as perguntas e as respostas para futuras consultas.
 
-Certas perguntas/fases estarão diretamente relacionadas com dicas ou a forma que deverá escrever as respostas.
-
-Anote as perguntas e as respostas para futuras consultas.
+<warning>
+Se você já possui uma plena noção sobre as necessidades do cenário e do modelo que as regras devem seguir, esta etapa se torna desnecessária.
+</warning>
 
 ## Lista de Perguntas
 
@@ -14,7 +14,7 @@ Anote as perguntas e as respostas para futuras consultas.
 
 <spacing size="12" />
 
-- O que é mais importante: A liberdade dos jogadores ou a restrição das regras?,
+- O que é mais importante: A liberdade dos jogadores ou a restrição das regras?
 - - Cenários com muito conteúdo histórico naturalmente terá regras restritivas.
 
 <spacing size="12" />
@@ -34,8 +34,8 @@ Anote as perguntas e as respostas para futuras consultas.
 <spacing size="12" />
 
 - Descreva o que são os seres vivos(se eles existirem), a singularidade e o nível de importância dos mesmos, e por fim a comparação direta com o que terão de enfrentar(se tiver).
-- - Cenários heróicos tendem a escalar os personagens ao ponto de se tornarem semi-deuses, ou até mesmo deuses.
-- - Cenários anti-heróicos tendem a de realizações específicas acabar causando grandes mudanças, não que os personagens tenham poderes incríveis.
+- - Cenários heroicos tendem a escalar os personagens ao ponto de se tornarem semi-deuses, ou até mesmo deuses.
+- - Cenários anti-heroico tendem a de realizações específicas acabar causando grandes mudanças, não que os personagens tenham poderes incríveis.
 - - Cenários de terror tendem a tornar os personagens jogáveis em um nível menor de poder que seus inimigos.
 
 <spacing size="12" />
@@ -91,7 +91,7 @@ Anote as perguntas e as respostas para futuras consultas.
 
 ## Respondendo as Perguntas
 
-Como exemplo, respondemos as perguntas de um possível sistema baseado em um cenário comum-heróico para RPG de Mesa. Não são respostas que precisam ser seguidas ao pé da letra, caso não concorde com alguma resposta, apenas ignore, nosso objetivo aqui é apenas trazer ideias para os criadores.
+Como exemplo, respondemos as perguntas de um possível sistema baseado em um cenário comum-heroico para RPG de Mesa. Não são respostas que precisam ser seguidas ao pé da letra, caso não concorde com alguma resposta, apenas ignore, nosso objetivo aqui é apenas trazer ideias para você, criador.
 
 <spacing size="15" />
 
@@ -175,4 +175,4 @@ R: Pouco, as entidades contribuem diretamente com classes específicas, e apenas
 
 *O cenário exige mecânicas específicas de exploração?*
 
-R: Não, pois os biomas são padrões e as possíveis adversidades são óbvias e podem ser improvisadas.
+R: Não, pois os biomas são padrões e as possíveis adversidades são óbvias e podem ser improvisadas pelo Mestre.
