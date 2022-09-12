@@ -1,6 +1,13 @@
-# Changelog (9/9/2022)
+# Changelog (9/12/2022)
 
 Changelog was created by [Generi](https://github.com/Novout/generi). Any questions, consult the documentation.
+
+### v0.3.0
+
+* **refactor(section):** danger and warning slots [7630ea9]
+* **chore:** pwa contents [0517bf2]
+* **feat(section):** complete getting-start [c89da27]
+* **feat(docs):** simple rewrite initial defines [053f598]
 
 ### v0.2.0
 
