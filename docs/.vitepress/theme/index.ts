@@ -1,4 +1,5 @@
 import { h } from 'vue'
+import { inBrowser } from 'vitepress'
 import Theme from 'vitepress/theme'
 import '../style/main.css'
 import '../style/vars.css'
@@ -46,6 +47,9 @@ import ComponentsExampleItem from '../components/pages/componentsexampleitem.vue
 
 import HomeBottom from '../components/pages/HomeBottom.vue'
 import HomeSearchBar from '../components/pages/HomeSearchBar.vue'
+
+if (inBrowser)
+  import('./pwa')
 
 export default {
   ...Theme,

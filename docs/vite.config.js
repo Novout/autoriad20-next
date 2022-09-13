@@ -11,7 +11,8 @@ export default defineConfig({
         families: ['Poppins']
       },
     }),
-    VitePWA({ 
+    VitePWA({
+      outDir: '.vitepress/dist',
       registerType: 'autoUpdate', 
       base: '/',
       includeAssets: [
@@ -32,6 +33,7 @@ export default defineConfig({
         'safari-pinned-tab.svg'
       ],  
       manifest: {
+        background_color: '#625975',
         name: 'AutoriaD20',
         short_name: 'AutoriaD20',
         description: 'Autoria é um sistema genérico para desenvolvimento de jogos D20.',
