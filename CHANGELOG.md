@@ -2,6 +2,10 @@
 
 Changelog was created by [Generi](https://github.com/Novout/generi). Any questions, consult the documentation.
 
+### v0.3.2
+
+* **feat:** pwa sw set [0524afd]
+
 ### v0.3.1
 
 * **chore:** remove unused manifest [15f7da5]
