@@ -2,6 +2,12 @@
 
 Changelog was created by [Generi](https://github.com/Novout/generi). Any questions, consult the documentation.
 
+### v0.4.0
+
+* **chore:** license [7e9c782]
+* **chore:** readme [5cf210b]
+* **feat(search):** link to href id [c52df80]
+
 ### v0.3.2
 
 * **feat:** pwa sw set [0524afd]
