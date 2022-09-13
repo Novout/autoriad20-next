@@ -13,12 +13,11 @@
   },
   "devDependencies": {
     "generi": "0.3.0",
-    "unocss": "^0.45.20",
+    "unocss": "^0.45.21",
     "vite": "^3.1.0",
-    "vite-plugin-fonts": "^0.6.0",
-    "vite-plugin-pwa": "^0.12.6",
+    "vite-plugin-pwa": "^0.12.7",
     "vitepress": "^1.0.0-alpha.13",
-    "vue": "^3.2.38"
+    "vue": "^3.2.39"
   },
   "dependencies": {
     "@vueuse/core": "^9.2.0"

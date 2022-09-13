@@ -18,7 +18,6 @@ import Titalic from '../components/material/titalic.vue'
 import Tlink from '../components/material/tlink.vue'
 import Tsub from '../components/material/tsub.vue'
 
-import Link from '../components/material/link.vue'
 import Danger from '../components/material/danger.vue'
 import Warning from '../components/material/warning.vue'
 import Info from '../components/material/info.vue'
@@ -67,7 +66,6 @@ export default {
     app.component('titalic', Titalic)
     app.component('tlink', Tlink)
     app.component('tsub', Tsub)
-    app.component('link', Link)
     app.component('danger', Danger)
     app.component('warning', Warning)
     app.component('info', Info)

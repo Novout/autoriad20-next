@@ -1,11 +1,13 @@
 <template>
   <section class="__material-component">
-    <h2 :id="title"><a :href="`#${title}`" class="header-anchor">#</a>{{ ` ${title}` }}</h2>
+    <h2 :id="setCorrectId(title)"><a :href="`#${setCorrectId(title)}`" class="header-anchor">#</a>{{ ` ${title}` }}</h2>
     <slot />
   </section>
 </template>
 
 <script setup lang="ts">
+import { setCorrectId } from '../../../scripts/utils.ts'
+
 defineProps<{
   title: string
 }>()

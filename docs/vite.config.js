@@ -1,36 +1,20 @@
 import { VitePWA } from 'vite-plugin-pwa'
-import { VitePluginFonts } from 'vite-plugin-fonts'
 import Unocss from 'unocss/vite'
 import { defineConfig } from 'vite'
 import { presetUno, presetWind } from 'unocss'
 
 export default defineConfig({
   plugins: [
-    VitePluginFonts({
-      google: {
-        families: ['Poppins']
-      },
-    }),
     VitePWA({
       outDir: '.vitepress/dist',
       registerType: 'autoUpdate', 
       base: '/',
       includeAssets: [
-        'ars.png',
-        'bw.png',
-        'logo.svg',
-        'android-chrome-192x192.png',
-        'android-chrome-512x512.png',
-        'apple-touch-icon.png',
-        'favicon-16x16.png',
-        'favicon-32x32.png',
-        'favicon.ico',
-        'mstile-70x70.png',
-        'mstile-144x144.png',
-        'mstile-150x150.png',
-        'mstile-310x150.png',
-        'mstile-310x310.png',
-        'safari-pinned-tab.svg'
+        'public/robots.txt',
+        'public/*.svg',
+        'public/*.png',
+        'public/*.ico',
+        'public/*.json'
       ],  
       manifest: {
         background_color: '#625975',
