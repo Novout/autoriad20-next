@@ -2,6 +2,10 @@
 
 Changelog was created by [Generi](https://github.com/Novout/generi). Any questions, consult the documentation.
 
+### v0.4.1
+
+* **feat(section):** extras [c948a4a]
+
 ### v0.4.0
 
 * **chore:** license [7e9c782]
