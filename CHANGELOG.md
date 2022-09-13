@@ -1,6 +1,11 @@
-# Changelog (9/12/2022)
+# Changelog (9/13/2022)
 
 Changelog was created by [Generi](https://github.com/Novout/generi). Any questions, consult the documentation.
+
+### v0.3.1
+
+* **chore:** remove unused manifest [15f7da5]
+* **feat(home):** search bar [acb9bb7]
 
 ### v0.3.0
 
