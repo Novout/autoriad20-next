@@ -44,7 +44,7 @@ import TWar from '../components/material/t/war.vue'
 import ComponentsExample from '../components/pages/componentsexample.vue'
 import ComponentsExampleItem from '../components/pages/componentsexampleitem.vue'
 
-import HomeBottom from '../components/pages/HomeBottom.vue'
+import ExtraPartners from '../components/pages/ExtraPartners.vue'
 import HomeSearchBar from '../components/pages/HomeSearchBar.vue'
 
 if (inBrowser)
@@ -89,12 +89,13 @@ export default {
     app.component('t-magic', TMagic)
     app.component('t-war', TWar)
 
+    app.component('extra-partners', ExtraPartners)
+
     app.component('components-example', ComponentsExample)
     app.component('components-example-item', ComponentsExampleItem)
   },
   Layout() {
     return h(Theme.Layout, null, {
-      'home-features-after': () => h(HomeBottom),
       'nav-bar-content-before': () => h(HomeSearchBar)
     })
   },

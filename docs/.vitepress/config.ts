@@ -3,7 +3,7 @@ import { version } from "../../package.json";
 
 export default defineConfig({
   lang: 'pt-BR',
-  title: `AutoriaD20 - v${version}`,
+  title: `AutoriaD20 - ${version} BETA`,
   description: 'test',
   lastUpdated: true,
   cleanUrls: 'with-subfolders',
@@ -121,6 +121,14 @@ function sidebarGuide() {
         { text: 'Equipamento', link: '/guide/content/tertiary/equipments' },
         { text: 'Guerra', link: '/guide/content/tertiary/war' },
         { text: 'Magia', link: '/guide/content/tertiary/magic' },
+      ]
+    },
+    {
+      text: 'Extras',
+      collapsible: true,
+      items: [
+        { text: 'Apoiadores', link: '/guide/extra/partners' },
+        { text: 'Contribuidores', link: '/guide/extra/authors' },
       ]
     }
   ]

@@ -9,13 +9,6 @@ export default defineConfig({
       outDir: '.vitepress/dist',
       registerType: 'autoUpdate', 
       base: '/',
-      includeAssets: [
-        'public/robots.txt',
-        'public/*.svg',
-        'public/*.png',
-        'public/*.ico',
-        'public/*.json'
-      ],  
       manifest: {
         background_color: '#625975',
         name: 'AutoriaD20',

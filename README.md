@@ -8,7 +8,7 @@
 AutoriaD20
 </h1>
 <h4 align="center">
-Sistema para desenvolvimento de jogos D20.
+Documentação para o desenvolvimento de jogos D20.
 <h4>
 <p align="center">
   <a href="https://autoriad20.vercel.app/"><img src="https://img.shields.io/github/package-json/v/Novout/autoriad20-next?style=for-the-badge&color=C1C9F5&label="></a>
