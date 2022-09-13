@@ -2,7 +2,7 @@ import { VitePWA } from 'vite-plugin-pwa'
 import { VitePluginFonts } from 'vite-plugin-fonts'
 import Unocss from 'unocss/vite'
 import { defineConfig } from 'vite'
-import { presetWind } from 'unocss'
+import { presetUno, presetWind } from 'unocss'
 
 export default defineConfig({
   plugins: [
@@ -89,7 +89,8 @@ export default defineConfig({
     }),
     Unocss({ 
       presets: [
-        presetWind()
+        presetWind(),
+        presetUno()
       ]
     }),
   ],

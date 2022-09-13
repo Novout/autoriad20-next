@@ -45,6 +45,7 @@ import ComponentsExample from '../components/pages/componentsexample.vue'
 import ComponentsExampleItem from '../components/pages/componentsexampleitem.vue'
 
 import HomeBottom from '../components/pages/HomeBottom.vue'
+import HomeSearchBar from '../components/pages/HomeSearchBar.vue'
 
 export default {
   ...Theme,
@@ -92,6 +93,7 @@ export default {
   Layout() {
     return h(Theme.Layout, null, {
       'home-features-after': () => h(HomeBottom),
+      'nav-bar-content-before': () => h(HomeSearchBar)
     })
   },
 }

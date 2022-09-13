@@ -13,3 +13,9 @@
 html:not(.dark) [img-dark] {
   display: none;
 }
+
+@media only screen and (max-width: 768px) {
+  .VPNavBarTitle {
+    display: none;
+  }
+}
