@@ -79,7 +79,7 @@ Todos os componentes exigem certo tipo de cuidado, principalmente pelo lado do c
 Demonstrações de como aplicar o módulo na prática. Os exemplos são extensos e contextualizados para melhor percepção do criador e entender como o módulo irá possivelmente funcionar em seu cenário.
 
 <info>
-Todos os exemplos disponibilizam um conteúdo finalizado em utilização já pronta para facilitar a interpretação do criador.
+Todos os exemplos disponibilizam um conteúdo finalizado em utilização já pronta para facilitar a interpretação por parte do criador.
 </info>
 
 ### Adaptações

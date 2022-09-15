@@ -23,6 +23,6 @@ features:
     details: Adapte qualquer regra para os mais diversos tipos de cenários.
   - title: Integrável
     details: Utilize Autoria em conjunto com outros sistemas já renomados como D&D, Tormenta, Pathfinder...
-  - title: Site-Aplicativo
-    details: Acesse esta documentação sem precisar estar conectado à internet.
+  - title: Documentação-Aplicativo
+    details: Acesse este site sem precisar estar conectado à internet.
 ---

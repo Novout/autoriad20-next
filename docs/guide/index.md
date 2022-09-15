@@ -3,7 +3,11 @@
 **Autoria** é um sistema genérico para desenvolvimento de jogos D20 criado por [Giovane S.C](https://novout.dev/), trazendo consigo uma grande quantidade de variações para adaptar as demais necessidades que seu jogo exija. Seu principal objetivo é facilitar a criação de jogos D20 em todas as suas possíveis utilizações, como RPG's de Mesa, cRPG's, MMORPG's entre outros.
 
 <danger>
-Em suma, AutoriaD20 é uma <u>documentação auxiliar</u> para a construção de sistemas, e não um sistema próprio por si só, demonstrando métodos, exemplos e dicas de como implementar um conteúdo especificado, jamais trazendo o conteúdo bruto.
+Em suma, AutoriaD20 é uma <u>documentação auxiliar</u> para a construção de sistemas, e não um sistema próprio por si só, demonstrando métodos, exemplos e dicas de como implementar um conteúdo especificado, jamais trazendo o conteúdo na forma bruta.
+</danger>
+
+<danger>
+Atualmente o projeto está em fase <u>BETA</u>, onde as seções podem mudar abruptamente até AutoriaD20 ser lançado oficialmente. Críticas e sugestões são sempre bem-vindas.
 </danger>
 
 ## De Onde Surgiu
