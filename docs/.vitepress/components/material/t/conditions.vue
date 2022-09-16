@@ -86,7 +86,7 @@
         </tcontainer>
       </lines>
       <lines>
-        <tsub>Sub-Agrupamento - Tipos de Dano</tsub>
+        <tsub title="Sub-Agrupamento - Tipos de Dano" />
         <p>Defina tipos de dano e os utilize para fraquezas ou resistências a certos tipos de ataques. Podem estar relacionadas a outros tipos de Condições.</p>
         <tcontainer :soft="false">
           <h3>Dano Perfurante</h3>

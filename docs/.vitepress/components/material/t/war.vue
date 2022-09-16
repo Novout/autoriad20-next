@@ -68,7 +68,7 @@
         </tcontainer>
       </lines>
       <lines>
-        <tsub>Sub-Agrupamento - Batalha Local</tsub>
+        <tsub title="Sub-Agrupamento - Batalha Local" />
         <p>Quando os personagens estão presentes em uma batalha e desejam se envolver nela, este Sub-Agrupamento é aplicado.</p>
         <p>Em um mapa hexagonal do local(o tamanho depende do tamanho da região, mas este componente não foi feito para grandes distâncias) os tokens são conjuntos de tropas.</p>
         <p>Os conjuntos possuem o mesmo poder(se possível) juntando grupos parecidos(100 guerreiros, 10  catapultas, 5 magos), onde as mecânicas de combate direto são definidas pelo criador.</p>

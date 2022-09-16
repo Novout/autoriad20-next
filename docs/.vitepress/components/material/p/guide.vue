@@ -59,7 +59,7 @@
       <p><tbold>Conteúdo:</tbold> Cada módulo secundário terá uma própria seção, seguindo a ordem do que o jogador necessita. Recomendamos</p>
       <p><tbold>Extras:</tbold> Apêndices e Conteúdo Adicional.</p>
       <lines>
-        <tsub>Sub-Agrupamento - Descrição Interativa</tsub>
+        <tsub title="Sub-Agrupamento - Descrição Interativa" />
         <p>Ganhe a atenção do jogador exibindo uma leve demonstração de narrativa, e em seguindo situando o seu impacto no cenário.</p>
         <p>Desta forma o jogador tem uma melhor percepção do que poderá realizar com aquela classe, e se é realmente o que deseja, evitando quebras de expectativa.</p>
         <p>Recomendado para cenários que fogem de RPG's tradicionais.</p>
@@ -129,7 +129,7 @@
         Recomendado para jogos cRPG. Demonstre ao jogador uma janela que consigo sempre consultar alguma dúvida sobre as mecânicas ou de raças e classes, por exemplo, sem o que o jogador precise abrir um site ou espere que o jogo apresente conteúdo sucessivamente.
       </lines>
       <lines>
-        <tsub>Sub-Agrupamento - Limitar o Conhecimento</tsub>
+        <tsub title="Sub-Agrupamento - Limitar o Conhecimento" />
         <p>Permita que o jogador veja o conteúdo somente se possuir a devida permissão para isso.</p>
         <info>
           Exemplo: O jogador desbloqueou a planta <titalic>Syufaero</titalic> no Herbário, então agora o jogo permitirá o acesso aos atributos da planta.

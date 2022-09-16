@@ -81,7 +81,7 @@
         <p>Os Sub-Agrupamentos deste componente são fortemente recomendados, pois determina a lógica que mais combina com o sistema.</p>
       </lines>
       <lines>
-        <tsub>Sub-Agrupamento - Iniciativa Abrupta</tsub>
+        <tsub title="Sub-Agrupamento - Iniciativa Abrupta" />
         <tbold>Mutualmente Exclusivo com Sub-Agrupamento - Iniciativa Esperada</tbold>
         <p>A Iniciativa acontece anteriormente ao ciclo de rodadas, quando um aliado ou um inimigo realiza uma ação de ataque ou entende-se que a situação está fora de controle. Todos os personagem desatendo ao início do combate, como uma armadilha, por exemplo, recebe uma penalidade inicial determinada pelas regras de rolagem do sistema(desvantagem na primeira ação, -5 no primeiro ataque, etc...).</p>
         <tcontainer :soft="true">
@@ -92,7 +92,7 @@
         </tcontainer>
       </lines>
       <lines>
-        <tsub>Sub-Agrupamento - Iniciativa Esperada</tsub>
+        <tsub title="Sub-Agrupamento - Iniciativa Esperada" />
         <tbold>Mutualmente Exclusivo com Sub-Agrupamento - Iniciativa Abrupta</tbold>
         <p>A Iniciativa faz parte do combate, onde a ordem de escolhas é intercalada entre um aliado e um inimigo. Em caso de uma luta contra um boss(1x4, 1x5, 1x6...) o boss possui a prioridade de ordem.</p>
         <tcontainer :soft="true">
@@ -100,7 +100,7 @@
         </tcontainer>
       </lines>
       <lines>
-        <tsub>Sub-Agrupamento - Ações Delimitadas</tsub>
+        <tsub title="Sub-Agrupamento - Ações Delimitadas" />
         <tbold>Mutualmente Exclusivo com Sub-Agrupamento - Ações por Pontuação</tbold>
         <p>O que o personagem pode realizar durante seu turno é denominada Ação, dividida por três tipos: Normal, Bônus e Extra.</p>
         <p>Por padrão, o personagem POSSUI 1 Ação Normal e SE PUDER REALIZAR 1 Ação Bônus.</p>
@@ -112,7 +112,7 @@
         </tcontainer>
       </lines>
       <lines>
-        <tsub>Sub-Agrupamento - Ações por Pontuação</tsub>
+        <tsub title="Sub-Agrupamento - Ações por Pontuação" />
         <tbold>Mutualmente Exclusivo com Sub-Agrupamento - Ações Delimitadas</tbold>
         <p>O que o personagem pode realizar durante seu turno é denominada Ação, possuindo uma pontuação X para utilizar.</p>
         <p>A pontuação depende do personagem (Raça ou Classe, por exemplo).</p>
@@ -122,7 +122,7 @@
         </tcontainer>
       </lines>
       <lines>
-        <tsub>Sub-Agrupamento - Posicionamento Quadrático</tsub>
+        <tsub title="Sub-Agrupamento - Posicionamento Quadrático" />
         <tbold>Mutualmente Exclusivo com Sub-Agrupamento - Posicionamento Hexagonal</tbold>
         <p>Cada quadrado ocupa tamanho X (padrão 5 pés), podendo realizar ações de fronteira nos nove quadrados ao redor.</p>
         <p><warning>A possibilidade de andar na diagonal depende do Mestre (ou o criador do sistema pode especificar como conteúdo bruto). Em geral, não é recomendado.</warning></p>
@@ -132,7 +132,7 @@
         </tcontainer>
       </lines>
       <lines>
-        <tsub>Sub-Agrupamento - Posicionamento Hexagonal</tsub>
+        <tsub title="Sub-Agrupamento - Posicionamento Hexagonal" />
         <tbold>Mutualmente Exclusivo com Sub-Agrupamento - Posicionamento Quadrático</tbold>
         <p>Cada hexágono ocupa tamanho X(padrão 5 pés), podendo realizar ações de fronteira nos nove quadrados ao redor.</p>
         <p><info>A movimentação na diagonal é permitida.</info></p>
@@ -142,7 +142,7 @@
         </tcontainer>
       </lines>
       <lines>
-        <tsub>Sub-Agrupamento - Flanqueamento</tsub>
+        <tsub title="Sub-Agrupamento - Flanqueamento" />
         <p>Caso algum personagem esteja adjacente a pelo menos dois inimigos, é aplicado efeito negativo ao personagem.</p>
         <tcontainer :soft="true">
           <p>J: Estou Flanqueando Mestre, então meus sete ataques serão realizados com Vantagem...</p>
@@ -150,7 +150,7 @@
         </tcontainer>
       </lines>
       <lines>
-        <tsub>Sub-Agrupamento - Retardar Rodada</tsub>
+        <tsub title="Sub-Agrupamento - Retardar Rodada" />
         <p>O jogador pode escolher por adiar seu turno até anteriormente ao início da próxima rodada. Caso mais de um jogador adie seu turno, o primeiro que atrasou continua sendo o última da rodada, em um esquema de pilhagem.</p>
         <p>Isso garante maiores combinações(principalmente da possibilidade de combos) e versatilidade ao jogador.</p>
         <tcontainer :soft="true">
@@ -160,7 +160,7 @@
         </tcontainer>
       </lines>
       <lines>
-        <tsub>Sub-Agrupamento - Superioridade Clara</tsub>
+        <tsub title="Sub-Agrupamento - Superioridade Clara" />
         <p>Ao invés do boss contar na ordem de jogada, ele irá intercalar entre as jogadas dos aliados.</p>
         <p><info>Recomendado para lutas em alta escala.</info></p>
         <tcontainer :soft="true">
@@ -170,7 +170,7 @@
         </tcontainer>
       </lines>
       <lines>
-        <tsub>Sub-Agrupamento - Ação Conjunta</tsub>
+        <tsub title="Sub-Agrupamento - Ação Conjunta" />
         <p>Se o próximo na contagem da rodada também é aliado, ambos podem realizar as ações simultaneamente.</p>
         <p><danger>Não é recomendado ter mais de dois jogadores realizando ações simultâneas pois pode ocorrer confusões.</danger></p>
         <tcontainer :soft="true">
@@ -180,7 +180,7 @@
         </tcontainer>
       </lines>
       <lines>
-        <tsub>Sub-Agrupamento - Exaustão</tsub>
+        <tsub title="Sub-Agrupamento - Exaustão" />
         <p>Mecânica adicional que permite os jogadores a realizarem ações melhoradas(por terem habilidades que são aprimoradas a gastar exaustão) ou a testes específicos.</p>
         <p>Exaustão possui uso único e sua recuperação é determinada por X rodadas.</p>
         <tcontainer :soft="true">

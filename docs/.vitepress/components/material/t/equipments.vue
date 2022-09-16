@@ -77,7 +77,7 @@
         </tcontainer>
       </lines>
       <lines>
-        <tsub>Sub-Agrupamento - Componentes Externos</tsub>
+        <tsub title="Sub-Agrupamento - Componentes Externos" />
         <p>Para itens essenciais, use outro tipo de componente disponível nesta seção.</p>
         <tcontainer :soft="false">
           <h3>Lanterna Grande</h3>
@@ -174,7 +174,7 @@
         </tcontainer>
       </lines>
       <lines>
-        <tsub>Sub-Agrupamento - Kit Inicial</tsub>
+        <tsub title="Sub-Agrupamento - Kit Inicial" />
         <p>Coloque itens diversos em Kit's que os personagens recebem desde o início.</p>
         <tcontainer :soft="false">
           <h3>Kit do Caçador</h3>

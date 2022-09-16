@@ -1,3 +1,3 @@
 export const setCorrectId = (str: string) => {
-  return str.toLowerCase().replaceAll(' ', '-').replaceAll(':', '')
+  return str.toLowerCase().replaceAll('sub-agrupamento - ', '').replaceAll(':', '').replaceAll(' ', '-')
 }

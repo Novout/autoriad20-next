@@ -73,7 +73,7 @@
         <p>Não possui limite de níveis, pois o próprio criador terá que separar o impacto de ganhar um nível, o que varia diretamente do cenário ou do estilo de jogo proposto.</p>
       </lines>
       <lines>
-        <tsub>Sub-Agrupamento - Experiência</tsub>
+        <tsub title="Sub-Agrupamento - Experiência" />
         <tbold>Mutuamente Exclusivo com Sub-Agrupamento - Ação Relevante</tbold>
         <p>Os personagens acumulam XP por narrativa e a destruição de inimigos.</p>
         <p><info>Consulte tabelas de experiência como RuneScape/Skyrim/ARK/etc... e tenha ideias para chegar na sua expectativa de nivelamento (ou construa sua própria lógica de XP).</info></p>
@@ -82,7 +82,7 @@
         </tcontainer>
       </lines>
       <lines>
-        <tsub>Sub-Agrupamento - Ação Relevante</tsub>
+        <tsub title="Sub-Agrupamento - Ação Relevante" />
         <tbold>Mutuamente Exclusivo com Sub-Agrupamento - Experiência</tbold>
         <p>Os personagens upam de nível quando algum acontecimento relevante na histórica acontece.</p>
         <p><info>Recomendável para cenários com grande impacto geopolítico ou com linearidade de campanha.</info></p>
@@ -181,7 +181,7 @@
         </warning>
       </lines>
       <lines>
-        <tsub>Sub-Agrupamento - Inicialização de Escolhas</tsub>
+        <tsub title="Sub-Agrupamento - Inicialização de Escolhas" />
         <p>Entrega um valor x para a construção de personagem + valor por nível que o personagem irá começar.</p>
         <p>Abordagem recomendada quando o a vivência do personagem durante a vida possui muito impacto em suas habilidades pessoais.</p>
       </lines>

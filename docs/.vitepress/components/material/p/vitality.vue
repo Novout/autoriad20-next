@@ -79,7 +79,7 @@
         Este componente de vitalidade é o mais tradicional, onde a vida dos personagens é decidida por uma barra de vitalidade de valor inteiro, tendo um valor máximo X e ao chegar a 0 o personagem morre ou entra em uma condição específica.
       </lines>
       <lines>
-        <tsub>Sub-Agrupamento - Morrendo</tsub>
+        <tsub title="Sub-Agrupamento - Morrendo" />
         <p><tbold>Requer o Componente Terciário: Condição</tbold></p>
         <p>Se o personagem ficar com a vida abaixo ou igual a 0, ganha a característica <titalic>Morrendo</titalic>.</p>
         <p>A cada rodada com a característica <titalic>Morrendo</titalic>, o jogador realiza um teste, se o valor for acima de 10, continua com a característica e pode ser levantado por um aliado. Se fracassado, perde a característica <titalic>Morrendo</titalic>e acaba entrando na característica <titalic>Morto</titalic>.</p>

@@ -96,7 +96,7 @@
         </tcontainer>
       </lines>
       <lines>
-        <tsub>Sub-Agrupamento - Slots</tsub>
+        <tsub title="Sub-Agrupamento - Slots" />
         <p>Cada lista de magias possui os seu próprio slot's, onde o jogador gasta 1 slot para conjurar magia</p>
         <p>A forma que o jogador recupera os slot's é definida pelo criador do sistema(pois depende da mecânica de recuperação dos recursos).</p>
         <tcontainer :soft="false">

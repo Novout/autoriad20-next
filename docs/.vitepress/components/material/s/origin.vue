@@ -95,7 +95,7 @@
         </tcontainer>
       </lines>
       <lines>
-        <tsub>Sub-Agrupamento - Timeline Inicial</tsub>
+        <tsub title="Sub-Agrupamento - Timeline Inicial" />
         <p>Determina um período de tempo inicial.</p>
         <p>Recomendável para cenários que possuem muita mudança geopolítica.</p>
         <tcontainer :soft="false">
@@ -202,7 +202,7 @@
         </tcontainer>
       </lines>
       <lines>
-        <tsub>Sub-Agrupamento - Categorias</tsub>
+        <tsub title="Sub-Agrupamento - Categorias" />
         <p>Determine escolhas específicas e que dependem da inicialização do personagem.</p>
         <p>Recomendado utilizar pontos disponíveis apenas para essa ramificação ao criar o personagem.</p>
         <tcontainer :soft="false">

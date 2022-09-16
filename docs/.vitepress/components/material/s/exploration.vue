@@ -77,7 +77,7 @@
         </tcontainer>
       </lines>
       <lines>
-        <tsub>Sub-Agrupamento - Localidade</tsub>
+        <tsub title="Sub-Agrupamento - Localidade" />
         <p>Além de criar regras para os biomas, considere também o tamanho dos povoados.</p>
         <p><warning>Recomendado para cenários que existam nações, e não reinos.</warning></p>
         <tcontainer :soft="true">

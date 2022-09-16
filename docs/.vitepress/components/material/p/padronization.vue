@@ -76,7 +76,7 @@
         </tcontainer>
       </lines>
       <lines>
-        <tsub>Sub-Agrupamento - Valor por Modificadores</tsub>
+        <tsub title="Sub-Agrupamento - Valor por Modificadores" />
         <tbold>Mutualmente Exclusivo com Sub-Agrupamento - Valor Bruto</tbold>
         <p>A base de equilíbrio de cada sub-recurso é 10, onde a cada dois a mais aplica +1 no Modificador e menos dois aplica -1 no Modificador.</p>
         <p>Os modificadores são a base para a gerar recurso, onde a pontuação é distribuída apenas inicialmente.</p>
@@ -92,7 +92,7 @@
         </tcontainer>
       </lines>
       <lines>
-        <tsub>Sub-Agrupamento - Valor Bruto</tsub>
+        <tsub title=" Sub-Agrupamento - Valor Bruto" />
         <tbold>Mutualmente Exclusivo com Sub-Agrupamento - Valor por Modificadores</tbold>
         <p>O personagem inicia com 0, onde cada valor adicional implica em um bônus adicional.</p>
         <p><warning> Ao utilizar este Sub-Agrupamento com valores inicializados, é recomendado que o personagem inicie com -1.</warning></p>
@@ -107,14 +107,14 @@
         </tcontainer>
       </lines>
       <lines>
-        <tsub>Sub-Agrupamento - Bônus de Proficiência</tsub>
+        <tsub title="Sub-Agrupamento - Bônus de Proficiência" />
         <p>O bônus de proficiência será aplicado em tudo que possuir proficiência, desde a valores base a até Vantagem em rolagens. O valor do bônus é escalável, sendo os valores determinados pelo criador do sistema.</p>
         <tcontainer :soft="true">
           <p>J: ... meu dado de ataque é 1d20 + 2 de Força + 3 da Proficiência...</p>
         </tcontainer>
       </lines>
       <lines>
-        <tsub>Sub-Agrupamento - Recurso Específico</tsub>
+        <tsub title="Sub-Agrupamento - Recurso Específico" />
         <p>Recursos de componentes(itens, classes, raça, etc...) pode dar valor de recurso baseado em condições, como biomas, inimigos de determinada raça no combate, horário do dia, etc...</p>
         <p><danger>Não é recomendado utilizar com muitos componentes que cedem bônus, pois pode desbalancear totalmente determinadas ações individuais.</danger></p>
         <tcontainer :soft="true">
@@ -122,7 +122,7 @@
         </tcontainer>
       </lines>
       <lines>
-        <tsub>Sub-Agrupamento - Perícias</tsub>
+        <tsub title="Sub-Agrupamento - Perícias" />
         <p>Perícias são um sub-categoria dos Atributos, onde cada uma delas é referenciada a um único atributo e é primariamente utilizada para testes.</p>
         <tcontainer :soft="true">
           <p>M: Realize um teste de Novo Mundo, sendo 1d20 mais o seu Modificador de Conhecimento...</p>

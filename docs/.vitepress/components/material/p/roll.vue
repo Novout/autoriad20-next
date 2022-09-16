@@ -74,7 +74,7 @@
         <p><info>Regras generalistas (por exemplo, a rolagem de <titalic>looting</titalic>) utilizam D100.</info></p>
       </lines>
       <lines>
-        <tsub>Sub-Agrupamento - Vantagem e Desvantagem</tsub>
+        <tsub title="Sub-Agrupamento - Vantagem e Desvantagem" />
         <p>Determinados recursos podem aplicar Vantagem ou Desvantagem.</p>
         <p>Vantagem: Dois D20 são rolados, pegando o maior valor.</p>
         <p>Desvantagem: Dois D20 são rolados, pegando o menor valor.</p>
@@ -84,7 +84,7 @@
         </tcontainer>
       </lines>
       <lines>
-        <tsub>Sub-Agrupamento - Crítico e Falha</tsub>
+        <tsub title="Sub-Agrupamento - Crítico e Falha" />
         <p>Em rolagens de D20, 1 significa Falha e 20 significa Crítico. Falha aplica efeito negativa mais impactante que apenas o erro enquanto Crítico aplica efeito positivo mais impactante que apenas o acerto.</p>
         <tcontainer :soft="true">
           <p>J: CRITEI MESTRE!</p>
@@ -92,7 +92,7 @@
         </tcontainer>
       </lines>
       <lines>
-        <tsub>Sub-Agrupamento - Versus</tsub>
+        <tsub title="Sub-Agrupamento - Versus" />
         <p>Quando há opostos, ou seja, dois personagens realizam a mesma ideia em sentidos opostos (tentar abrir e fechar a porta no mesmo momento), os personagens rolam 1d20 para decidir quem terá a prioridade.</p>
         <tcontainer :soft="true">
           <p>J: Vou empurrar a porta, Mestre.</p>

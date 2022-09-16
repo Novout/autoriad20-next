@@ -92,7 +92,7 @@
         </tcontainer>
       </lines>
       <lines>
-        <tsub>Sub-Agrupamento - Vitalidade Escalar</tsub>
+        <tsub title="Sub-Agrupamento - Vitalidade Escalar" />
         <tbold>Exclusivo de Vitalidade: À Moda da Casa</tbold>
         <p>A classe recebe por cada nível 1dX valor de vitalidade. O valor é determinado pelo tipo de componente escolhido em Vitalidade.</p>
         <tcontainer :soft="false">
@@ -105,7 +105,7 @@
         </tcontainer>
       </lines>
       <lines>
-        <tsub>Sub-Agrupamento - Terceirizando</tsub>
+        <tsub title="Sub-Agrupamento - Terceirizando" />
         <p>Possibilita anexar componentes terciários nas definições da classe. Em suma, todo componente terciário que possuir <titalic>Conteúdo Dependente</titalic> como <titalic>Categoria</titalic> está disponível para utilização.</p>
         <tcontainer :soft="false">
           <h3>Lutador</h3>
@@ -119,7 +119,7 @@
         </tcontainer>
       </lines>
       <lines>
-        <tsub>Sub-Agrupamento - Multiclasse</tsub>
+        <tsub title="Sub-Agrupamento - Multiclasse" />
         <p>Permite os jogadores utilizar duas classes simultaneamente, onde o nível do personagem é separado do nível da classe.</p>
         <p><warning>Utilizando este componente, determina que os níveis devem aplicar bônus significantes para manter a harmonia do balanceamento.</warning></p>
         <p><danger>Não é recomendado para sistemas que não utilizam o componente <titalic>Combate</titalic>.</danger></p>
@@ -244,7 +244,7 @@
         </tcontainer>
       </lines>
       <lines>
-        <tsub>Sub-Agrupamento - Padronizando a Lógica</tsub>
+        <tsub title="Sub-Agrupamento - Padronizando a Lógica" />
         <p>Determine bônus específicos por cada x valor na árvore. Por exemplo, todo terceiro nível de uma árvore(*-3-*) dá bônus na vida máxima.</p>
         <p>Recomendável para sistemas que exige padronização de recursos, onde esse agrupamento consegue facilitar o equilíbrio de habilidades.</p>
         <tcontainer :soft="false">
@@ -264,7 +264,7 @@
         </tcontainer>
       </lines>
       <lines>
-        <tsub>Sub-Agrupamento - Terceirizando</tsub>
+        <tsub title="Sub-Agrupamento - Terceirizando" />
         <p>Possibilita anexar componentes terciários nas definições de cada módulo na árvore de escolhas. Em suma, todo componente terciário que possuir <titalic>Conteúdo Dependente</titalic> como <titalic>Categoria</titalic> está disponível para utilização.</p>
         <tcontainer :soft="false">
           <h3>Classe: Bruxo</h3>
@@ -277,7 +277,7 @@
         </tcontainer>
       </lines>
       <lines>
-        <tsub>Sub-Agrupamento - Multiclasse</tsub>
+        <tsub title="Sub-Agrupamento - Multiclasse" />
         <p>Permite os jogadores utilizar duas classes simultaneamente, escolhendo em qual árvore utilizará seus pontos.</p>
         <p><warning>Utilizando este componente, determina que os níveis devem aplicar bônus significantes para manter a harmonia do balanceamento.</warning></p>
         <p><danger>Não é recomendado para sistemas que não utilizam o componente <titalic>Combate</titalic>.</danger></p>

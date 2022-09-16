@@ -75,7 +75,7 @@
         </tcontainer>
       </lines>
       <lines>
-        <tsub>Sub-Agrupamento - Poderes Divinos</tsub>
+        <tsub title="Sub-Agrupamento - Poderes Divinos" />
         <p>Cada divindade, mesmo no seu estado de ser vivo, possuem poderes.</p>
         <p><info>É recomendado que a divindade tenha uma ficha própria.</info></p>
         <tcontainer :soft="false">

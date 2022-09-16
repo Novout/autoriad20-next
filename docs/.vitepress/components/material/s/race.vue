@@ -83,7 +83,7 @@
         </ul>
       </tcontainer>
       <lines>
-        <tsub>Sub-Agrupamento - Características Genéricas</tsub>
+        <tsub title="Sub-Agrupamento - Características Genéricas" />
         <p>Toda Raça terá uma pequena tabela com características genéricas(média de tamanho, idade, tipos de aparência, por exemplo) separada por categorias. Estas características de classe não aplicam bônus, mas podem ser afetadas por outros componentes.</p>
         <p>Recomendável para Raças que variam de região para região.</p>
         <tcontainer>
@@ -101,7 +101,7 @@
         </tcontainer>
       </lines>
       <lines>
-        <tsub>Sub-Agrupamento - Árvore Genealógica</tsub>
+        <tsub title="Sub-Agrupamento - Árvore Genealógica" />
         <p>Todos os bônus de Raça deriva de antigas mutações até chegar no resultado atual.</p>
         <info><p>Recomendado quando há necessidade de criar Sub-Raças para não impregnar conteúdo redundante.</p></info>
         <tcontainer>
@@ -120,7 +120,7 @@
         </tcontainer>
       </lines>
       <lines>
-        <tsub>Sub-Agrupamento - Seres Não Jogáveis</tsub>
+        <tsub title="Sub-Agrupamento - Seres Não Jogáveis" />
         <tbold>Requer Sub-Agrupamento - Árvore Genealógica</tbold>
         <p>Raças de seres não-jogáveis (monstros, por exemplo) irão ter uma ficha de bônus própria. Dessa forma, o estilo de combate/roleplay segue um propósito único, onde as variações desta Raça criam seres únicos seguindo um ideal sólido.</p>
         <tcontainer>

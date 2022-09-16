@@ -67,7 +67,7 @@
         </warning>
       </lines>
       <lines>
-        <tsub>Sub-Agrupamento - Pontos de Contexto</tsub>
+        <tsub title="Sub-Agrupamento - Pontos de Contexto" />
         <p>Por cada boa interpretação, onde o critério é definido pelo Mestre, o jogador em destaque ganha 1 ponto de contexto.</p>
         <p>Os jogadores podem gastar pontos de contexto para interferir na existência da cena, por exemplo, adicionar um recurso que não foi descrito pelo mestre.</p>
         <warning>
@@ -83,7 +83,7 @@
         </tcontainer>
       </lines>
       <lines>
-        <tsub>Sub-Agrupamento - Interferência de Diálogo</tsub>
+        <tsub title="Sub-Agrupamento - Interferência de Diálogo" />
         <p>Em uma discussão, o grupo pode optar por sempre utilizar o membro com melhores características para as rolagens de diálogo, assim todos os jogadores do grupo podem participar da discussão sem que sejam penalizados pela falta de lábia de seus personagens.</p>
         <warning>
           Não é recomendado para sistemas com muitas mecânicas de diálogo.
