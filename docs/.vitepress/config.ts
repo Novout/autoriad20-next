@@ -4,7 +4,7 @@ import { version } from "../../package.json";
 export default defineConfig({
   lang: 'pt-BR',
   title: `AutoriaD20 - ${version} BETA`,
-  description: 'test',
+  description: 'Sistema genérico, integrável e flexível para desenvolvimento de jogos D20.',
   lastUpdated: true,
   cleanUrls: 'with-subfolders',
   head: [
@@ -75,7 +75,7 @@ function sidebarGuide() {
       items: [
         { text: 'O que é AutoriaD20', link: '/guide/' },
         { text: 'Componentes', link: '/guide/components' },
-        { text: 'Á Moda da Casa', link: '/guide/amdc' },
+        { text: 'À Moda da Casa', link: '/guide/amdc' },
       ]
     },
     {
@@ -121,6 +121,16 @@ function sidebarGuide() {
         { text: 'Equipamento', link: '/guide/content/tertiary/equipments' },
         { text: 'Guerra', link: '/guide/content/tertiary/war' },
         { text: 'Magia', link: '/guide/content/tertiary/magic' },
+      ]
+    },
+    {
+      text: 'Integrações',
+      collapsible: true,
+      items: [
+        { text: 'Como Integrar', link: '/guide/integrations/' },
+        { text: 'D&D', link: '/guide/integrations/dd' },
+        { text: 'Tormenta20', link: '/guide/integrations/tormenta' },
+        { text: 'Pathfinder', link: '/guide/integrations/pathfinder' },
       ]
     },
     {
