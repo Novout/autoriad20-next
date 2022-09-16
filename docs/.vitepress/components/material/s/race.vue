@@ -68,8 +68,10 @@
         />
       </concept>
       <lines>
-        <p>Cada ser-vivo-relevante possui determinada raça, ganhando diversos bônus definitivos e não são atrelados a nenhum componente primário.</p>
-        <p>Recomendável para cenários que possuem grandes diferenças entre as raças jogáveis, exigindo mecânicas próprias para cada.</p>
+        <p>Cada ser-vivo-relevante possui determinada Raça, ganhando diversos bônus definitivos e não são atrelados a nenhum componente primário.</p>
+        <info>
+          Recomendado para cenários que possuem grandes diferenças entre as Raças jogáveis, exigindo mecânicas próprias para cada.
+        </info>
       </lines>
       <tcontainer>
         <h3>Raça Humana</h3>
@@ -82,8 +84,8 @@
       </tcontainer>
       <lines>
         <tsub>Sub-Agrupamento - Características Genéricas</tsub>
-        <p>Toda raça terá uma pequena tabela com características genéricas(média de tamanho, idade, tipos de aparência, por exemplo) separada por categorias. Estas características de classe não aplicam bônus, mas podem ser afetadas por outros componentes.</p>
-        <p>Recomendável para raças que variam de região para região.</p>
+        <p>Toda Raça terá uma pequena tabela com características genéricas(média de tamanho, idade, tipos de aparência, por exemplo) separada por categorias. Estas características de classe não aplicam bônus, mas podem ser afetadas por outros componentes.</p>
+        <p>Recomendável para Raças que variam de região para região.</p>
         <tcontainer>
           <h3>Raça Humana</h3>
           <ul>
@@ -100,8 +102,8 @@
       </lines>
       <lines>
         <tsub>Sub-Agrupamento - Árvore Genealógica</tsub>
-        <p>Todos os bônus de raça deriva de antigas mutações até chegar no resultado atual.</p>
-        <p>Recomendável ser utilizado quando há necessidade de criar sub-raças, sem repetir conteúdo redundante.</p>
+        <p>Todos os bônus de Raça deriva de antigas mutações até chegar no resultado atual.</p>
+        <info><p>Recomendado quando há necessidade de criar Sub-Raças para não impregnar conteúdo redundante.</p></info>
         <tcontainer>
           <h3>Taleks</h3>
           <ul>
@@ -120,7 +122,7 @@
       <lines>
         <tsub>Sub-Agrupamento - Seres Não Jogáveis</tsub>
         <tbold>Requer Sub-Agrupamento - Árvore Genealógica</tbold>
-        <p>Raças de seres não-jogáveis(monstros, por exemplo) irão ter uma ficha de bônus própria. Dessa forma, o estilo de combate/roleplay segue um propósito único, onde as variações desta raça criam seres únicos seguindo um ideal sólido.</p>
+        <p>Raças de seres não-jogáveis (monstros, por exemplo) irão ter uma ficha de bônus própria. Dessa forma, o estilo de combate/roleplay segue um propósito único, onde as variações desta Raça criam seres únicos seguindo um ideal sólido.</p>
         <tcontainer>
           <h3>Cavalo-do-Ar</h3>
           <ul>
@@ -142,7 +144,7 @@
       <p><tbold>Adaptações:</tbold><warning>Ao utilizar <titalic>Padronização: À Moda da Casa</titalic>, não dê bônus somatório diretamente ao recurso único, e sim bônus que acompanham a característica do personagem (bônus de resistência a dano congelante para um ser robótico, por exemplo).</warning></p>
       <tarticle></tarticle>
       <p><tbold>Exemplos:</tbold><tarticle>
-        Se utilizar <titalic>Sub-Agrupamento - Características Genéricas</titalic> podemos definir o tamanho entre <titalic>Pequeno, Médio, Grande</titalic>, onde cada tamanho ocupa determinado espaço no campo de batalha definido no componente <titalic>Combate</titalic>.
+        Se utilizar <titalic>Sub-Agrupamento - Características Genéricas</titalic>, podemos definir o tamanho entre <titalic>Pequeno, Médio, Grande</titalic>, onde cada tamanho ocupa determinado espaço no campo de batalha definido no componente <titalic>Combate</titalic>.
         <tcontainer>
           <h3>Regras de Combate</h3>
           <ul>
@@ -163,33 +165,3 @@
     </cmpt>
   </mainpage>
 </template>
-
-<script>
-import badge from '../badge.vue'
-import concept from '../concept.vue'
-import mainpage from '../mainpage.vue'
-import cmpt from '../cmpt.vue'
-import lines from '../lines.vue'
-import tlink from '../tlink.vue'
-import titalic from '../titalic.vue'
-import tarticle from '../tarticle.vue'
-import tcontainer from '../tcontainer.vue'
-import tbold from '../tbold.vue'
-import tsub from '../tsub.vue'
-
-export default {
-  components: {
-    concept,
-    mainpage,
-    badge,
-    cmpt,
-    lines,
-    tlink,
-    titalic,
-    tarticle,
-    tcontainer,
-    tbold,
-    tsub
-  }
-}
-</script>

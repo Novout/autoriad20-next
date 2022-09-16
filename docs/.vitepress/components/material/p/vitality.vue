@@ -76,12 +76,13 @@
         />
       </concept>
       <lines>
-        Este componente de vitalidade é o mais tradicional encontrado em RPG's, onde a vida dos personagens é decidida por uma barra de vitalidade de valor inteiro, tendo um valor máximo X e ao chegar a 0 o personagem morre.
+        Este componente de vitalidade é o mais tradicional, onde a vida dos personagens é decidida por uma barra de vitalidade de valor inteiro, tendo um valor máximo X e ao chegar a 0 o personagem morre ou entra em uma condição específica.
       </lines>
       <lines>
         <tsub>Sub-Agrupamento - Morrendo</tsub>
+        <p><tbold>Requer o Componente Terciário: Condição</tbold></p>
         <p>Se o personagem ficar com a vida abaixo ou igual a 0, ganha a característica <titalic>Morrendo</titalic>.</p>
-        <p>A cada rodada com a característica <titalic>Morrendo</titalic>, o jogador realiza um teste, se o valor for acima de 10 continua com a característica e pode ser levantado por um aliado. Se fracassado, perde a característica <titalic>Morrendo</titalic> entrando na característica <titalic>Morto</titalic>.</p>
+        <p>A cada rodada com a característica <titalic>Morrendo</titalic>, o jogador realiza um teste, se o valor for acima de 10, continua com a característica e pode ser levantado por um aliado. Se fracassado, perde a característica <titalic>Morrendo</titalic>e acaba entrando na característica <titalic>Morto</titalic>.</p>
         <tcontainer :soft="true">
           <p>J: Ok. Estou com -4... cai.</p>
           <p>...</p>
@@ -90,38 +91,7 @@
       </lines>
       <p><tbold>Problemáticas:</tbold><danger>Obrigatoriedade de outros componentes a trabalhar em torno do conceito de vitalidade.</danger></p>
       <p><tbold>Adaptações:</tbold><warning>Se estiver usando o componente <titalic>Nivelamento: À Moda da Casa</titalic>, o valor da barra de vitalidade também será um dado somatório por nível, aplicando este valor no máximo dos pontos de vida.</warning></p>
-      <tarticle><warning>Utilizando o <titalic>Sub-Agrupamento - Morrendo</titalic>, pode adaptar para componentes terciários de estado/condição.</warning></tarticle>
       <p><tbold>Exemplos:</tbold><tarticle>A <titalic>Barra de Vitalidade</titalic> de todos os personagens é igual, com o valor máximo de 10. A cada ataque sofrido, independente do tipo, perde -1 na barra. Ao chegar a 0, morre.</tarticle></p>
     </cmpt>
   </mainpage>
 </template>
-
-<script>
-import badge from '../badge.vue'
-import concept from '../concept.vue'
-import mainpage from '../mainpage.vue'
-import cmpt from '../cmpt.vue'
-import lines from '../lines.vue'
-import tlink from '../tlink.vue'
-import titalic from '../titalic.vue'
-import tarticle from '../tarticle.vue'
-import tcontainer from '../tcontainer.vue'
-import tbold from '../tbold.vue'
-import tsub from '../tsub.vue'
-
-export default {
-  components: {
-    concept,
-    mainpage,
-    badge,
-    cmpt,
-    lines,
-    tlink,
-    titalic,
-    tarticle,
-    tcontainer,
-    tbold,
-    tsub
-  }
-}
-</script>

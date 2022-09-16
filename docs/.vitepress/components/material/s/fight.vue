@@ -112,7 +112,7 @@
         </tcontainer>
       </lines>
       <lines>
-        <tsub>Sub-Agrupamento -Ações por Pontuação</tsub>
+        <tsub>Sub-Agrupamento - Ações por Pontuação</tsub>
         <tbold>Mutualmente Exclusivo com Sub-Agrupamento - Ações Delimitadas</tbold>
         <p>O que o personagem pode realizar durante seu turno é denominada Ação, possuindo uma pontuação X para utilizar.</p>
         <p>A pontuação depende do personagem (Raça ou Classe, por exemplo).</p>
@@ -195,33 +195,3 @@
     </cmpt>
   </mainpage>
 </template>
-
-<script>
-import badge from '../badge.vue'
-import concept from '../concept.vue'
-import mainpage from '../mainpage.vue'
-import cmpt from '../cmpt.vue'
-import lines from '../lines.vue'
-import tlink from '../tlink.vue'
-import titalic from '../titalic.vue'
-import tarticle from '../tarticle.vue'
-import tcontainer from '../tcontainer.vue'
-import tbold from '../tbold.vue'
-import tsub from '../tsub.vue'
-
-export default {
-  components: {
-    concept,
-    mainpage,
-    badge,
-    cmpt,
-    lines,
-    tlink,
-    titalic,
-    tarticle,
-    tcontainer,
-    tbold,
-    tsub
-  }
-}
-</script>

@@ -69,8 +69,8 @@
       </concept>
       <lines>
         O nivelamento mais encontrado em RPG, onde tudo possui um certo número de dado que a cada nível soma mais um dado de mesmo nível.
-        <p>Ao escolher esse componente, define escalabilidade e o ganho de recompensa estará relacionado diretamente ao ganho de nível.</p>
-        <p>Não possui limite de níveis, pois o próprio criador terá que separar o impacto de ganhar um nível, o que varia diretamente do cenário ou estilo de jogo.</p>
+        <p>Ao escolher este componente, a escalabilidade e o ganho de recompensa estará relacionado diretamente ao ganho de nível.</p>
+        <p>Não possui limite de níveis, pois o próprio criador terá que separar o impacto de ganhar um nível, o que varia diretamente do cenário ou do estilo de jogo proposto.</p>
       </lines>
       <lines>
         <tsub>Sub-Agrupamento - Experiência</tsub>
@@ -87,12 +87,12 @@
         <p>Os personagens upam de nível quando algum acontecimento relevante na histórica acontece.</p>
         <p><info>Recomendável para cenários com grande impacto geopolítico ou com linearidade de campanha.</info></p>
         <tcontainer :soft="true">
-          <p>M: Uma grande sede de energia envolve o corpo de todos vocês, trazendo lembranças do passado. Diversas imagens entram em cena, onde a única delas que é idêntica para todos demonstra um estreito corredor, com um luz no fim do túnel...</p>
+          <p>M: Uma grande sede de energia envolve o corpo de todos vocês, trazendo lembranças do passado. Diversas imagens entram em cena, onde a única delas que é idêntica para todos demonstra um estreito corredor, com uma luz no fim do túnel...</p>
           <p>M: Vocês receberam um nível adicional para a classe atual. Além disso... todos vocês ganham um nível de Psiônico!</p>
         </tcontainer>
       </lines>
-      <p><tbold>Problemáticas:</tbold><danger>Dificuldade de trazer conteúdo relevante em altos níveis.</danger></p>
-      <p><tbold>Adaptações:</tbold><warning>Transforme todo conteúdo não-nivelado em uma possibilidade de reutilizar conteúdo(itens, por exemplo).</warning></p>
+      <p><tbold>Problemáticas:</tbold><danger>Dificuldade de trazer conteúdo inovador em altos níveis.</danger></p>
+      <p><tbold>Adaptações:</tbold><warning>Transforme todo conteúdo não-nivelado em uma possibilidade de reutilizar conteúdo (itens, por exemplo).</warning></p>
       <tbold>Exemplos:</tbold><tarticle>- Os personagem possuem uma <titalic>Barra de Resiliência</titalic>, onde pode gastar esses pontos para ganhar bônus em rolagem de dados ou realizar uma ação sobrenatural de força ou resistência. A cada nível, todo personagem ganha 1d4(ou 2) adicionalmente e recupera toda a <titalic>Barra de Resiliência</titalic>.</tarticle>
     </cmpt>
     <cmpt title="Nivelamento: Pontuação Acumulativa">
@@ -171,9 +171,14 @@
         />
       </concept>
       <lines>
-        A cada novo nível, o personagem ganha X pontos para poder distribuir em uma árvore de escolhas, limitada(ou não) pelas regras impostas do sistema.
-        <p>Cada árvore é dividida em um componente secundário, começando "de baixo para cima da esquerda para direita", dividida em módulos que possuem três números: O primeiro define a sub-árvore(se tiver necessidade), o segundo a altura do módulo e o terceiro a sua posição na altura, da esquerda para a direita. Se uma determinada altura tiver apenas um único módulo, o terceiro valor é desnecessário.</p>
-        <p>Este tipo de abordagem é recomendada para cenários que todos os impactantes(raça, classe, origem, por exemplo) são muito diferentes entre si, onde as habilidades são definidas por capacidades específicas(capacidade de voar, salto longo, velocidade) e não genéricas(força, constituição, inteligência).</p>
+        A cada novo nível, o personagem ganha X pontos para poder distribuir em uma árvore de escolhas, limitada (ou não) pelas regras impostas do sistema.
+        <p>Cada árvore é dividida em um componente secundário, começando "de baixo para cima e da esquerda para direita", dividida em módulos que possuem três números: O primeiro define a sub-árvore (se tiver necessidade), o segundo a altura do módulo e o terceiro a sua posição na altura, da esquerda para a direita. Se uma determinada altura tiver apenas um único módulo, o terceiro valor é desnecessário.</p>
+        <info>
+          Esta abordagem é recomendada para cenários que todos os impactantes (raça, classe, origem, por exemplo) são muito diferentes entre si, onde as habilidades são definidas por capacidades específicas(capacidade de voar, salto longo, velocidade) e não genéricas (força, constituição, inteligência).
+        </info>
+        <warning>
+          É fortemente recomendado o uso deste componente com outros componentes de Pontuação Acumulativa.
+        </warning>
       </lines>
       <lines>
         <tsub>Sub-Agrupamento - Inicialização de Escolhas</tsub>
@@ -182,7 +187,7 @@
       </lines>
       <p><tbold>Problemáticas:</tbold><danger>Iniciantes podem ter dificuldades na criação dos personagens.</danger></p>
       <p><danger>Equilibrar os valores se torna uma tarefa complicada devido a diversas possibilidades de escolhas.</danger></p>
-      <p><tbold>Adaptações:</tbold><warning>Crie um GFX da árvore de escolhas para utilização dos jogadores.</warning></p>
+      <p><tbold>Adaptações:</tbold><warning>Crie um GFX da árvore de escolhas para facilitar as escolhas dos jogadores.</warning></p>
       <p><warning>Sistemas com muitas árvores poderá exigir maior ganho de pontos por nível.</warning></p>
       <p><info>Árvores não necessariamente dependem de pré-requisitos sobre módulos, tendo eles independentes entre si. Uma boa utilização seria para uma lista de magias, onde todos os módulos possuem o pré-requisito: Classe Conjurador.</info></p>
       <tbold>Exemplos:</tbold>
@@ -249,7 +254,7 @@
         />
       </concept>
       <lines>
-       Personagens, seja eles controlados pelos Jogadores ou pelo Mestre, possuirão recursos fixos e que não podem ser alterados. Recomendado para cenários onde somente a história importa ou o resultado da história já é esperado.
+       Personagens, seja eles controlados pelos Jogadores ou pelo Mestre, possuirão recursos fixos e que não podem ser alterados. Recomendado para jogos onde somente a história importa ou no caso dos resultados da história já serem esperados.
       </lines>
       <p><tbold>Problemáticas:</tbold><danger>Limita a tomada de ações dos personagens.</danger></p>
       <p><tbold>Adaptações:</tbold><info>Componentes Terciários (como Equipamentos) fica a mercê do Mestre considerar se os personagens ganham ou perdem Equipamentos, por exemplo.</info></p>
@@ -258,33 +263,3 @@
     </cmpt>
   </mainpage>
 </template>
-
-<script>
-import badge from '../badge.vue'
-import concept from '../concept.vue'
-import mainpage from '../mainpage.vue'
-import cmpt from '../cmpt.vue'
-import lines from '../lines.vue'
-import tlink from '../tlink.vue'
-import titalic from '../titalic.vue'
-import tarticle from '../tarticle.vue'
-import tcontainer from '../tcontainer.vue'
-import tbold from '../tbold.vue'
-import tsub from '../tsub.vue'
-
-export default {
-  components: {
-    concept,
-    mainpage,
-    badge,
-    cmpt,
-    lines,
-    tlink,
-    titalic,
-    tarticle,
-    tcontainer,
-    tbold,
-    tsub
-  }
-}
-</script>

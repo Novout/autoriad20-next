@@ -60,8 +60,8 @@
         />
       </concept>
       <lines>
-        <p>O componente "À Moda da Casa" de TiraniaD20 não podia ser diferente de grandes opções para batalhas.</p>
-        <p>Por ser um componente muito especificado, dividimos todos os recursos em Sub-Agrupamentos, permitindo o criador maior maleabilidade.</p>
+        <p>Este componente possui diversas opções para batalhas sem ser extensamente complexas.</p>
+        <info>Por ser um componente muito especificado, dividimos todos os recursos em Sub-Agrupamentos, permitindo o criador maior maleabilidade.</info>
         <tcontainer :soft="true">
           <p>M: ...exércitos do sul cruzaram o Yaruga novamente...</p>
           <p>J: E lá vamos nós...</p>
@@ -75,7 +75,7 @@
         <p>Os personagens contam como um único hexágono, realizando suas ações normalmente em seus turnos. Se os personagens são de nível muito baixo(a ponto de não terem poder suficiente para afetar media-larga escala) agrupe com um token já existente.</p>
         <p><warning>A forma que deve nivelar ou aplicar vitalidade depende dos componentes primários OU crie regras específicas se achar necessário.</warning></p>
         <tcontainer :soft="true">
-          <p>M: O grupo de arqueiros está em estado Fraco</p>
+          <p>M: O grupo de arqueiros está em estado Fraco.</p>
           <p>J: Ok, irei conjurar Fúria Flamejante...</p>
         </tcontainer>
       </lines>
@@ -89,33 +89,3 @@
     </cmpt>
   </mainpage>
 </template>
-
-<script>
-import badge from '../badge.vue'
-import concept from '../concept.vue'
-import mainpage from '../mainpage.vue'
-import cmpt from '../cmpt.vue'
-import lines from '../lines.vue'
-import tlink from '../tlink.vue'
-import titalic from '../titalic.vue'
-import tarticle from '../tarticle.vue'
-import tcontainer from '../tcontainer.vue'
-import tbold from '../tbold.vue'
-import tsub from '../tsub.vue'
-
-export default {
-  components: {
-    concept,
-    mainpage,
-    badge,
-    cmpt,
-    lines,
-    tlink,
-    titalic,
-    tarticle,
-    tcontainer,
-    tbold,
-    tsub
-  }
-}
-</script>

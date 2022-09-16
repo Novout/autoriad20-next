@@ -1,22 +1,171 @@
 [
-  { "name": "Guia: À Moda da Casa", "url": "/guide/content/primary/guide" }, 
-  { "name": "Roleplay: À Moda da Casa", "url": "/guide/content/primary/roleplay" }, 
-  { "name": "Rolagem: À Moda da Casa", "url": "/guide/content/primary/roll" }, 
-  { "name": "Vitalidade: À Moda da Casa", "url": "/guide/content/primary/vitality" }, 
-  { "name": "Padronização de Jogo: À Moda da Casa", "url": "/guide/content/primary/gamepadronization" }, 
-  { "name": "Nivelamento: Fixo", "url": "/guide/content/primary/leveling" }, 
-  { "name": "Nivelamento: À Moda da Casa", "url": "/guide/content/primary/leveling" },
-  { "name": "Nivelamento: Pontuação Acumulativa", "url": "/guide/content/primary/leveling" },
-  { "name": "Raça: À Moda da Casa", "url": "/guide/content/secondary/race" },
-  { "name": "Classe: À Moda da Casa", "url": "/guide/content/secondary/class" },
-  { "name": "Classe: Pontuação Acumulativa", "url": "/guide/content/secondary/class" },
-  { "name": "Origem: À Moda da Casa", "url": "/guide/content/secondary/origin" },
-  { "name": "Origem: Pontuação Acumulativa", "url": "/guide/content/secondary/origin" },
-  { "name": "Exploração: À Moda da Casa", "url": "/guide/content/secondary/exploration" },
-  { "name": "Combate: À Moda da Casa", "url": "/guide/content/secondary/fight" },
-  { "name": "Condição: À Moda da Casa", "url": "/guide/content/tertiary/conditions" },
-  { "name": "Divindade: À Moda da Casa", "url": "/guide/content/tertiary/divinity" },
-  { "name": "Equipamento: À Moda da Casa", "url": "/guide/content/tertiary/equipments" },
-  { "name": "Guerra: À Moda da Casa", "url": "/guide/content/tertiary/war" },
-  { "name": "Magia: À Moda da Casa", "url": "/guide/content/tertiary/magic" }
+  { 
+    "name": "Guia: À Moda da Casa", 
+    "url": "/guide/content/primary/guide", 
+    "grouping": [
+      "Descrição Interativa"
+    ]
+  },
+  { 
+    "name": "Guia: Documentação Interna", 
+    "url": "/guide/content/primary/guide",
+    "grouping": [
+      "Limitar o Conhecimento"
+    ]
+  }, 
+  { 
+    "name": "Roleplay: À Moda da Casa", 
+    "url": "/guide/content/primary/roleplay",
+    "grouping": [
+      "Pontos de Contexto",
+      "Interferência de Diálogo"
+    ]
+  }, 
+  { 
+    "name": "Nivelamento: À Moda da Casa", 
+    "url": "/guide/content/primary/leveling",
+    "grouping": [
+      "Experiência",
+      "Ação Relevante"
+    ] 
+  },
+  { 
+    "name": "Nivelamento: Pontuação Acumulativa", 
+    "url": "/guide/content/primary/leveling",
+    "grouping": [
+      "Inicialização de Escolhas"
+    ] 
+  },
+  { 
+    "name": "Nivelamento: Fixo", 
+    "url": "/guide/content/primary/leveling",
+    "grouping": [] 
+  },
+  { 
+    "name": "Rolagem: À Moda da Casa", 
+    "url": "/guide/content/primary/roll",
+    "grouping": [
+      "Vantagem e Desvantagem",
+      "Crítico e Falha",
+      "Versus"
+    ]
+  }, 
+  { 
+    "name": "Vitalidade: À Moda da Casa", 
+    "url": "/guide/content/primary/vitality",
+    "grouping": [
+      "Morrendo"
+    ]
+  }, 
+  { 
+    "name": "Padronização de Jogo: À Moda da Casa", 
+    "url": "/guide/content/primary/gamepadronization",
+    "grouping": [
+      "Valor por Modificadores",
+      "Valor Bruto",
+      "Bônus de Proficiência",
+      "Recurso Específico",
+      "Perícias"
+    ] 
+  },
+  { 
+    "name": "Raça: À Moda da Casa", 
+    "url": "/guide/content/secondary/race",
+    "grouping": [
+      "Características Genéricas",
+      "Árvore Genealógica",
+      "Seres Não Jogáveis"
+    ]
+  },
+  { 
+    "name": "Classe: À Moda da Casa", 
+    "url": "/guide/content/secondary/class",
+    "grouping": [
+      "Vitalidade Escalar",
+      "Terceirizando",
+      "Multiclasse"
+    ] 
+  },
+  { 
+    "name": "Classe: Pontuação Acumulativa", 
+    "url": "/guide/content/secondary/class",
+    "grouping": [
+      "Padronizando a Lógica",
+      "Terceirizando",
+      "Multiclasse"
+    ] 
+  },
+  { 
+    "name": "Origem: À Moda da Casa", 
+    "url": "/guide/content/secondary/origin",
+    "grouping": [
+      "Timeline Inicial"
+    ] 
+  },
+  { 
+    "name": "Origem: Pontuação Acumulativa",
+    "url": "/guide/content/secondary/origin",
+    "grouping": [
+      "Categorias"
+    ] 
+  },
+  { 
+    "name": "Exploração: À Moda da Casa", 
+    "url": "/guide/content/secondary/exploration",
+    "grouping": [
+      "Localidade"
+    ] 
+  },
+  { 
+    "name": "Combate: À Moda da Casa", 
+    "url": "/guide/content/secondary/fight",
+    "grouping": [
+      "Iniciativa Abrupta",
+      "Iniciativa Esperada",
+      "Ações Delimitadas",
+      "Ações por Pontuação",
+      "Posicionamento Quadrático",
+      "Posicionamento Hexagonal",
+      "Flanqueamento",
+      "Retardar Rodada",
+      "Superioridade Clara",
+      "Ação Conjunta",
+      "Exaustão"
+    ] 
+  },
+  { 
+    "name": "Condição: À Moda da Casa", 
+    "url": "/guide/content/tertiary/conditions",
+    "grouping": [
+      "Tipos de Dano"
+    ] 
+  },
+  { 
+    "name": "Divindade: À Moda da Casa", 
+    "url": "/guide/content/tertiary/divinity",
+    "grouping": [
+      "Poderes Divinos"
+    ] 
+  },
+  { 
+    "name": "Equipamento: À Moda da Casa", 
+    "url": "/guide/content/tertiary/equipments",
+    "grouping": [
+      "Componentes Externos"
+    ] 
+  },
+  { 
+    "name": "Guerra: À Moda da Casa", 
+    "url": "/guide/content/tertiary/war",
+    "grouping": [
+      "Batalha Local"
+    ] 
+  },
+  { 
+    "name": "Magia: À Moda da Casa", 
+    "url": "/guide/content/tertiary/magic",
+    "grouping": [
+      "Slots"
+    ] 
+  }
 ]

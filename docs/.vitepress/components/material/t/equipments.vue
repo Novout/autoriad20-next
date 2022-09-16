@@ -83,7 +83,7 @@
           <h3>Lanterna Grande</h3>
           <ul>
             <li>Tipo: Duas mãos</li>
-            <li>Ao ligar, dispara um feiche de luz em formato cilíndrico com cerca de 4 pés de raio.</li>
+            <li>Ao ligar, dispara um rastro de luz em formato cilíndrico com cerca de 4 pés de raio.</li>
           </ul>
         </tcontainer>
       </lines>
@@ -194,33 +194,3 @@
     </cmpt>
   </mainpage>
 </template>
-
-<script>
-import badge from '../badge.vue'
-import concept from '../concept.vue'
-import mainpage from '../mainpage.vue'
-import cmpt from '../cmpt.vue'
-import lines from '../lines.vue'
-import tlink from '../tlink.vue'
-import titalic from '../titalic.vue'
-import tarticle from '../tarticle.vue'
-import tcontainer from '../tcontainer.vue'
-import tbold from '../tbold.vue'
-import tsub from '../tsub.vue'
-
-export default {
-  components: {
-    concept,
-    mainpage,
-    badge,
-    cmpt,
-    lines,
-    tlink,
-    titalic,
-    tarticle,
-    tcontainer,
-    tbold,
-    tsub
-  }
-}
-</script>

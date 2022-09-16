@@ -68,9 +68,9 @@
         />
       </concept>
       <lines>
-        A padronização irá centralizar em um único atributo. Ele irá ditar os componentes secundários(habilidades, talentos, bônus de classe e raça...). 
+        A padronização irá centralizar em um único atributo. Ele irá ditar os componentes secundários (habilidades, talentos, bônus de classe e raça...). 
         <p>Estes atributos podem ter um ou mais valores, onde o jogador na etapa de criação do personagem distribui seus pontos para os recursos de maior importância e impacto para o personagem final.</p>
-        <p><info>Em D&D isto também é chamado de <titalic>Atributo</titalic>, mas deixamos aqui a mecânica de proficiência e perícias como Sub-Agrupamento.</info></p>
+        <p><info>Em D&D isto também é chamado de <titalic>Atributo</titalic>, mas deixamos aqui a mecânica de Proficiência e de Perícias como Sub-Agrupamento.</info></p>
         <tcontainer :soft="true">
           <p>Armadura do Aventureiro: O valor do atributo Resiliência é dobrado se estiver em...</p>
         </tcontainer>
@@ -101,14 +101,14 @@
           <ul>
             <li>Força 0: Nenhum bônus</li>
             <li>Força 1: Adicione 1d4 do seu tipo de dano primário.</li>
-            <li>Força 2: Inflinge a condição Desorientado por dois turnos no alvo em caso de acerto crítico.</li>
+            <li>Força 2: Inflige a condição Desorientado por dois turnos no alvo em caso de acerto crítico.</li>
             <li>...</li>
           </ul>
         </tcontainer>
       </lines>
       <lines>
         <tsub>Sub-Agrupamento - Bônus de Proficiência</tsub>
-        <p>O bônus de proficiência será aplicado em tudo que possuir proficiência, desde a valores bases a até vantagem em rolagens. O valor do bônus é escalável, sendo os valores determinados pelo criador do sistema.</p>
+        <p>O bônus de proficiência será aplicado em tudo que possuir proficiência, desde a valores base a até Vantagem em rolagens. O valor do bônus é escalável, sendo os valores determinados pelo criador do sistema.</p>
         <tcontainer :soft="true">
           <p>J: ... meu dado de ataque é 1d20 + 2 de Força + 3 da Proficiência...</p>
         </tcontainer>
@@ -134,33 +134,3 @@
     </cmpt>
   </mainpage>
 </template>
-
-<script>
-import badge from '../badge.vue'
-import concept from '../concept.vue'
-import mainpage from '../mainpage.vue'
-import cmpt from '../cmpt.vue'
-import lines from '../lines.vue'
-import tlink from '../tlink.vue'
-import titalic from '../titalic.vue'
-import tarticle from '../tarticle.vue'
-import tcontainer from '../tcontainer.vue'
-import tbold from '../tbold.vue'
-import tsub from '../tsub.vue'
-
-export default {
-  components: {
-    concept,
-    mainpage,
-    badge,
-    cmpt,
-    lines,
-    tlink,
-    titalic,
-    tarticle,
-    tbold,
-    tsub,
-    tcontainer
-  }
-}
-</script>

@@ -76,9 +76,11 @@
         />
       </concept>
       <lines>
-        <p>Cada ser-vivo-relevante possui determinada classe, ganhando habilidades únicas(não-customizáveis) por escalabilidade. Toda ficha de classe irá conter inicialmente uma tabela com os bônus por nível, segundamente características permanentes de classe e terceiramente a descrição de cada habilidade ganha.</p>
-        <p>Recomendável se deseja aplicar a experiência tradicional de um RPG, onde cada nível o jogador ganha uma(ou mais) possibilidades de jogo.</p>
+        <p>Cada ser-vivo-relevante possui determinada classe, ganhando habilidades únicas (não-customizáveis) por escalabilidade. Toda ficha de classe irá conter inicialmente uma tabela com os bônus por nível, segundamente características permanentes de classe e terceiramente a descrição de cada habilidade ganha.</p>
         <p>Este componente oferece diversos Sub-Atributos para tornar a ficha de classe mais atrativa e menos rígida.</p>
+        <info>
+          <p>Recomendado se deseja aplicar a experiência tradicional de um RPG, onde cada nível o jogador ganha uma ou mais possibilidades de jogo.</p>
+        </info>
         <tcontainer :soft="false">
           <h3>Lutador</h3>
           <ul>
@@ -262,26 +264,6 @@
         </tcontainer>
       </lines>
       <lines>
-        <tsub>Sub-Agrupamento - Padronizando a Lógica</tsub>
-        <p>Determine bônus específicos por cada x valor na árvore. Por exemplo, todo terceiro nível de uma árvore(*-3-*) dá bônus na vida máxima.</p>
-        <p>Recomendável para sistemas que exige padronização de recursos, onde esse agrupamento consegue facilitar o equilíbrio de habilidades.</p>
-        <tcontainer :soft="false">
-          <h3>Classe: Caçador</h3>
-          <ul>
-            <li>...</li>
-            <li>1-3: Ganhe +2 pontos de atributo para distribuir da forma que desejar.</li>
-            <li>...</li>
-          </ul>
-          //...
-          <h3>Classe: Inventor</h3>
-          <ul>
-            <li>...</li>
-            <li>1-3: Ganhe +2 pontos de atributo para distribuir da forma que desejar.</li>
-            <li>...</li>
-          </ul>
-        </tcontainer>
-      </lines>
-      <lines>
         <tsub>Sub-Agrupamento - Terceirizando</tsub>
         <p>Possibilita anexar componentes terciários nas definições de cada módulo na árvore de escolhas. Em suma, todo componente terciário que possuir <titalic>Conteúdo Dependente</titalic> como <titalic>Categoria</titalic> está disponível para utilização.</p>
         <tcontainer :soft="false">
@@ -309,40 +291,10 @@
         </tcontainer>
       </lines>
       <p><tbold>Problemáticas:</tbold><danger>Exige um certo escopo da aplicabilidade do conceito de classe. Recomendamos que escolha os sub-atributos depois de definir outros componentes secundários e terciários.</danger></p>
-      <p><tbold>Adaptações:</tbold><warning>Nada te impede de criar requisitos para a escolha de módulos, inclusive utilizar recurso de outros componentes.</warning></p>
+      <p><tbold>Adaptações:</tbold><warning>Nada impede de criar requisitos para a escolha de módulos, inclusive utilizar recurso de outros componentes.</warning></p>
       <p><tbold>Exemplos:</tbold><tarticle>
         <tarticle>- Geto, Inventor Nvl 3, possui três pontos no Arquétipo: Mecanização, sendo eles 2-1, 2-2-1 e 2-2-2.</tarticle>
       </tarticle></p>
     </cmpt>
   </mainpage>
 </template>
-
-<script>
-import badge from '../badge.vue'
-import concept from '../concept.vue'
-import mainpage from '../mainpage.vue'
-import cmpt from '../cmpt.vue'
-import lines from '../lines.vue'
-import tlink from '../tlink.vue'
-import titalic from '../titalic.vue'
-import tarticle from '../tarticle.vue'
-import tcontainer from '../tcontainer.vue'
-import tbold from '../tbold.vue'
-import tsub from '../tsub.vue'
-
-export default {
-  components: {
-    concept,
-    mainpage,
-    badge,
-    cmpt,
-    lines,
-    tlink,
-    titalic,
-    tarticle,
-    tcontainer,
-    tbold,
-    tsub
-  }
-}
-</script>

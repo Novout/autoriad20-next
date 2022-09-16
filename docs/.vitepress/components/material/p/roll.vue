@@ -71,7 +71,7 @@
         <p>D20 tradicional. O valor somatório dificilmente ultrapassa 30-35.</p>
         <p><info>Rolagens principais são obrigatoriamente D20.</info></p>
         <p><info>Rolagens para necessidades menores com D12,D10,D8,D6 e D4.</info></p>
-        <p><info>Regras generalistas(por exemplo, a rolagem de looting) utilizam D100.</info></p>
+        <p><info>Regras generalistas (por exemplo, a rolagem de <titalic>looting</titalic>) utilizam D100.</info></p>
       </lines>
       <lines>
         <tsub>Sub-Agrupamento - Vantagem e Desvantagem</tsub>
@@ -93,7 +93,7 @@
       </lines>
       <lines>
         <tsub>Sub-Agrupamento - Versus</tsub>
-        <p>Quando há opostos, ou seja, dois personagens realizam a mesma ideia em sentidos opostos(tentar abrir e fechar a porta no mesmo momento), os personagens rolam 1d20 para decidir quem terá a prioridade.</p>
+        <p>Quando há opostos, ou seja, dois personagens realizam a mesma ideia em sentidos opostos (tentar abrir e fechar a porta no mesmo momento), os personagens rolam 1d20 para decidir quem terá a prioridade.</p>
         <tcontainer :soft="true">
           <p>J: Vou empurrar a porta, Mestre.</p>
           <p>M: Algo do outro lado está segurando a porta... jogue 1d20 + Modificador de Força...</p>
@@ -102,38 +102,8 @@
       <p><tbold>Problemáticas:</tbold><danger>Dificuldade de equilibrar recursos em personagens de alto nível quanto utilizado componentes de Nivelamento de Alto Impacto.</danger></p>
       <p><tbold>Adaptações:</tbold><warning>Aproveitar os Sub-Agrupamentos para a criação de recursos terciários (condições, reações).</warning></p>
       <p><tbold>Exemplos:</tbold><tarticle>
-        A ação de <titalic>Ataque</titalic> rola com 1d20 + Bônus pelo nível do personagem. Ao acertar, role o valor na arma + o <titalic>Atributo</titalic> necessário.
+        A ação de <titalic>Ataque</titalic> rola com 1d20 + Nível do Personagem. Ao acertar, role o valor na arma + o <titalic>Atributo</titalic> necessário.
       </tarticle></p>
     </cmpt>
   </mainpage>
 </template>
-
-<script>
-import badge from '../badge.vue'
-import concept from '../concept.vue'
-import mainpage from '../mainpage.vue'
-import cmpt from '../cmpt.vue'
-import lines from '../lines.vue'
-import tlink from '../tlink.vue'
-import titalic from '../titalic.vue'
-import tarticle from '../tarticle.vue'
-import tcontainer from '../tcontainer.vue'
-import tbold from '../tbold.vue'
-import tsub from '../tsub.vue'
-
-export default {
-  components: {
-    concept,
-    mainpage,
-    badge,
-    cmpt,
-    lines,
-    tlink,
-    titalic,
-    tarticle,
-    tcontainer,
-    tbold,
-    tsub
-  }
-}
-</script>
