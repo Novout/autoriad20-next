@@ -2,10 +2,15 @@
   <p :style="{ backgroundColor: bg, color: text, boxShadow: bg1 + ' 5px 5px, ' + bg2 + ' 10px 10px, ' + bg3 + ' 15px 15px '}">{{ title }}</p>
 </template>
 
-<script>
-export default {
-  props: ['title', 'bg', 'bg1', 'bg2', 'bg3', 'text']
-}
+<script setup lang="ts">
+defineProps<{
+  title: string,
+  bg: string,
+  bg1: string,
+  bg2: string,
+  bg3: string,
+  text: string
+}>()
 </script>
 
 <style scoped>

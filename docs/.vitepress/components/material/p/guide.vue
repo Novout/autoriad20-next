@@ -33,7 +33,7 @@
       </concept>
       <concept title="Estilo">
         <badge 
-          title="Genérico" 
+          title="Genérico"
           bg="rgba(69,166,235, 1)"
           bg1="rgba(69,166,235, 0.3)"
           bg2="rgba(69,166,235, 0.2)"
@@ -69,7 +69,7 @@
           <span>Skyro, o povo desconhecido entre eles mesmos. Possuem o dom da ilusão e da retórica, transformando em um piscar de olhos no que quiserem e como quiserem. Poucos sabem do conhecimento deles, e menos ainda das suas reais aparências.</span>
         </tcontainer>
       </lines>
-      <p><tbold>Problemáticas:</tbold> <danger>Este componente é o mais genérico, devido a isso é o melhor componente para iniciantes construírem seus personagens, mas não para eles consultarem.</danger></p>
+      <p><tbold>Problemáticas:</tbold><danger>Este componente é o mais genérico, devido a isso é o melhor componente para iniciantes construírem seus personagens, mas não para eles consultarem.</danger></p>
       <p><danger>A forma de separar os itens em componentes e em diferentes seções que dependem entre si faz o leitor ficar 'viajando' nas páginas, podendo confundir principalmente quem não está acostumado com o documento.</danger></p>
       <p><danger>Por exemplo, se o jogador ficar em dúvida entre classes conjuradoras, ele terá que consultar diversas vezes as páginas distantes do componente terciário de magia, e isso sem sequer começar a jogar.</danger></p>
       <p><tbold>Adaptações:</tbold><warning>É possível colocar o cenário junto na seção de extras, ou seja, no final e não no começo.</warning></p>
