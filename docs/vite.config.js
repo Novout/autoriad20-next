@@ -2,15 +2,27 @@ import { VitePWA } from 'vite-plugin-pwa'
 import Unocss from 'unocss/vite'
 import { defineConfig } from 'vite'
 import { presetUno, presetWind } from 'unocss'
+import { resolve } from 'pathe'
+import fg from 'fast-glob'
 
 export default defineConfig({
+  ssr: {
+    format: 'cjs',
+  },
+  legacy: {
+    buildSsrCjsExternalHeuristics: true,
+  },
+  optimizeDeps: {
+    exclude: ['vitepress'],
+  },
   plugins: [
     VitePWA({
       outDir: '.vitepress/dist',
       registerType: 'autoUpdate', 
-      base: '/',
+      includeAssets: fg.sync('**/*.{png,svg,ico,txt}', { cwd: resolve(__dirname, 'public') }),
       manifest: {
-        background_color: '#625975',
+        id: '/',
+        background_color: '#222222',
         name: 'AutoriaD20',
         short_name: 'AutoriaD20',
         description: 'Autoria é um sistema genérico para desenvolvimento de jogos D20.',
@@ -20,50 +32,19 @@ export default defineConfig({
           {
             src: 'android-chrome-192x192.png',
             sizes: '192x192',
-            type: 'image/png',
-            purpose: "any maskable"
+            type: 'image/png'
           },
           {
             src: 'android-chrome-512x512.png',
             sizes: '512x512',
-            type: 'image/png',
-            purpose: "any maskable"
-          }
+            type: 'image/png'
+          },
         ],
       },
       workbox: {
-        maximumFileSizeToCacheInBytes: 3145728000,
-        sourcemap: false,
-        runtimeCaching: [
-          {
-            urlPattern: /^https:\/\/fonts\.googleapis\.com\/.*/i,
-            handler: 'CacheFirst',
-            options: {
-              cacheName: 'google-fonts-cache',
-              expiration: {
-                maxEntries: 10,
-                maxAgeSeconds: 60 * 60 * 24 * 365
-              },
-              cacheableResponse: {
-                statuses: [0, 200]
-              }
-            }
-          },
-          {
-            urlPattern: /^https:\/\/fonts\.gstatic\.com\/.*/i,
-            handler: 'CacheFirst',
-            options: {
-              cacheName: 'gstatic-fonts-cache',
-              expiration: {
-                maxEntries: 10,
-                maxAgeSeconds: 60 * 60 * 24 * 365
-              },
-              cacheableResponse: {
-                statuses: [0, 200]
-              },
-            }
-          }
-        ]
+        navigateFallbackDenylist: [/^\/new$/],
+        navigateFallback: null,
+        globPatterns: ['**/*.{css,js,html,ico,txt,woff2,png,svg,json}'],
       } 
     }),
     Unocss({ 
@@ -71,7 +52,7 @@ export default defineConfig({
         presetWind(),
         presetUno()
       ]
-    }),
+    })
   ],
   build: {
     emptyOutDir: true,
