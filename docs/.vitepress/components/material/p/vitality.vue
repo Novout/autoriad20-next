@@ -76,7 +76,7 @@
         />
       </concept>
       <lines>
-        Este componente de vitalidade é o mais tradicional, onde a vida dos personagens é decidida por uma barra de vitalidade de valor inteiro, tendo um valor máximo X e ao chegar a 0 o personagem morre ou entra em uma condição específica.
+        A vida dos personagens é decidida por uma barra de vitalidade de valor inteiro (0-1-2-3-4...), tendo um valor máximo X. Se o personagem chegar a 0 pontos de vida, o personagem morre ou entra em uma condição específica.
       </lines>
       <lines>
         <tsub title="Sub-Agrupamento - Morrendo" />
@@ -88,6 +88,33 @@
           <p>...</p>
           <p>J: Uh. Passei... Alguém me levanta ai na moral?</p>
         </tcontainer>
+      </lines>
+      <lines>
+        <tsub title="Sub-Agrupamento - Barras Adicionais" />
+        <p>Use outros componentes para criar barras adicionais para cada personagem, seguindo às mesmas regras da barra de vida, só que com o valor para uma finalidade diferente.</p>
+        <tcontainer>
+          <div class="w-full py-1 bg-green-500 text-center">10/10 - Barra de Vida</div>
+          <div class="w-full py-1 bg-yellow-600 text-center my-3">6 - Pontos de Esquiva</div>
+          <div class="w-full py-1 bg-blue-500 text-center">2/3 - Pontos de Magia</div>
+        </tcontainer>
+        <info>
+          Diversos Componentes Terciários permitirão regras e ideias para conseguir implementar este Sub-Agrupamento.
+        </info>
+      </lines>
+      <lines>
+        <tsub title="Sub-Agrupamento - Personagens Relevantes" />
+        <p>Atribui característica e conteúdos de outros componentes apenas para personagens controlados por pessoas. Assim, fichas de animais ou inimigos, por exemplo, terão a liberdade para saírem do padrão do sistema.</p>
+        <tcontainer>
+          <p>Azelath - Personagem Relevante - Nível: 5 / Classe: Mago</p>
+          <p>//...</p>
+          <p>Rerold - Ataque Corpo-A-Corpo: 3d16 causando 2d10 de Dano Físico...</p>
+        </tcontainer>
+        <danger>
+          Este Sub-Agrupamento é recomendado apenas para TTRPG.
+        </danger>
+        <info>
+          O Componente Terciário: Condições permitiria criar regras de utilidade única para cada Personagem Não-Relevante.
+        </info>
       </lines>
       <p><tbold>Problemáticas:</tbold><danger>Obrigatoriedade de outros componentes a trabalhar em torno do conceito de vitalidade.</danger></p>
       <p><tbold>Adaptações:</tbold><warning>Se estiver usando o componente <titalic>Nivelamento: À Moda da Casa</titalic>, o valor da barra de vitalidade também será um dado somatório por nível, aplicando este valor no máximo dos pontos de vida.</warning></p>
