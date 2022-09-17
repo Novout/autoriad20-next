@@ -69,8 +69,8 @@
       </concept>
       <lines>
         <p>Equipamento: À Moda da Casa considera a ideia do "aventureiro feliz", ou algo do tipo.</p>
-        <p>Todos os itens genéricos são auto interpretativos, onde apenas os essenciais(armas, por exemplo) entram em consideração.</p>
-        <p><info>Recomendado para sistemas que possuem o foco simplista.</info></p>
+        <p>Todos os itens genéricos são auto-interpretativos, onde apenas os essenciais (armas, por exemplo) entram em consideração.</p>
+        <p><info>Recomendado para TTRPG's onde os itens são de comum conhecimento e suas descrições seriam redundantes. Exemplo: Lanterna, Chave, Folha de Anotação...</info></p>
         <tcontainer :soft="true">
           <p>J: Mestre, posso usar corda?</p>
           <p>M: Bem, você é um aventureiro... pode.</p>

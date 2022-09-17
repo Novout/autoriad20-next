@@ -157,6 +157,13 @@
     ] 
   },
   { 
+    "name": "Equipamento: Generalizando", 
+    "url": "/guide/content/tertiary/equipments",
+    "grouping": [
+      "Kit Inicial"
+    ] 
+  },
+  { 
     "name": "Guerra: À Moda da Casa", 
     "url": "/guide/content/tertiary/war",
     "grouping": [
