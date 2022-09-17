@@ -15,3 +15,9 @@ Atualmente o projeto está em fase <u>BETA</u>, onde as seções podem mudar abr
 Após adaptar [Restos da Geada](https://www.restosdageada.com/) para [D&D 5e](https://dnd.wizards.com/), foi possível observar diversos problemas de sincronia entre um dungeon crawler e um cenário que difere da proposta tradicional de D&D. Entre os principais problemas, podemos destacar a adaptação de raças, geopolítica das origens, classes por região ou intrínsecas a raça e talentos/magias fracos comparados ao cenário, e isso acabou gerando a necessidade de trazer uma melhor experiência para quem quisesse utilizar o cenário para mestrar/jogar.
 
 Por conta disso, foi necessário a construção de uma base sólida e eficaz para comportar as necessidades do universo em questão, assim surgindo AutoriaD20.
+
+## Expectativas para a versão 1.0
+
+- Novos Componentes à disposição.
+- Integrações com D&D, Pathfinder, Tormenta, entre outros.
+- Playground para a modelagem e escolha de componentes.

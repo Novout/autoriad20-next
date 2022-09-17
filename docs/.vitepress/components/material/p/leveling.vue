@@ -75,7 +75,7 @@
       <lines>
         <tsub title="Sub-Agrupamento - Experiência" />
         <tbold>Mutuamente Exclusivo com Sub-Agrupamento - Ação Relevante</tbold>
-        <p>Os personagens acumulam XP por narrativa e a destruição de inimigos.</p>
+        <p>Os personagens acumulam XP pela narrativa, morte de inimigos, entre outros meios.</p>
         <p><info>Consulte tabelas de experiência como RuneScape/Skyrim/ARK/etc... e tenha ideias para chegar na sua expectativa de nivelamento (ou construa sua própria lógica de XP).</info></p>
         <tcontainer :soft="true">
           <p>M: Vocês acabam de ganhar 450 de XP por matarem o Ogro das...</p>

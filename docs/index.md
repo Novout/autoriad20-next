@@ -21,8 +21,6 @@ features:
     details: Construa seu próprio sistema D20 sem nenhuma restrição comercial.
   - title: Flexível
     details: Adapte qualquer regra para os mais diversos tipos de cenários.
-  - title: Integrável
-    details: Utilize Autoria em conjunto com outros sistemas já renomados como D&D, Tormenta, Pathfinder...
   - title: Documentação-Aplicativo
     details: Acesse este site sem precisar estar conectado à internet.
 ---
