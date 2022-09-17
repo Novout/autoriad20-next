@@ -2,6 +2,10 @@
 
 Changelog was created by [Generi](https://github.com/Novout/generi). Any questions, consult the documentation.
 
+### v0.5.3
+
+* **fix(components):** equipment in json data [2029e86]
+
 ### v0.5.2
 
 * **fix:** typos [ee2a499]
