@@ -2,6 +2,10 @@
 
 Changelog was created by [Generi](https://github.com/Novout/generi). Any questions, consult the documentation.
 
+### v0.5.2
+
+* **fix:** typos [ee2a499]
+
 ### v0.5.1
 
 * **feat(components):** new vitality subgroups [31ded4d]
