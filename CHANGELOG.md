@@ -1,6 +1,16 @@
-# Changelog (9/13/2022)
+# Changelog (9/16/2022)
 
 Changelog was created by [Generi](https://github.com/Novout/generi). Any questions, consult the documentation.
+
+### v0.5.0
+
+* **fix(pwa):** manifest insert and remov index.html redirect in fallback workbox [fe8cec3]
+* **chore:** update packages [6e3b7b0]
+* **feat(search):** grouping appear in options [41d620a]
+* **refactor(sections):** text corrections and new info's and warning's [e7576c9]
+* **chore:** defines .json access [7a9c079]
+* **refactor(sections):** provide small text corrections [d81acb4]
+* **fix:** typos [e40d46c]
 
 ### v0.4.2
 
