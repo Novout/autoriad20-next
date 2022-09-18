@@ -82,7 +82,7 @@
           <p>- Aplique 1d4 de Dano por Sangramento por turno.</p>
           //...
           <h3>Condição: Atordoado</h3>
-          <p>- Não pode realizar nenhum tipo de ação(normal, bônus e extra).</p>
+          <p>- Não pode realizar nenhum tipo de ação (normal, bônus e extra).</p>
         </tcontainer>
       </lines>
       <lines>
@@ -93,11 +93,11 @@
           <p>- Caso o valor do Dano Perfurante equivale a metade da vida atual do alvo, aplique Sangramento por dois turnos.</p>
         </tcontainer>
       </lines>
-      <p><tbold>Problemáticas:</tbold><danger>A sua aplicabilidade depende(e somente) das suas escolhas em Padronização de Jogo e Rolagem.</danger></p>
-      <p><tbold>Adaptações:</tbold><warning>Aplicar a temporização(duramento em turnos, por exemplo) diretamente nas condições, sem depender do contexto.</warning></p>
-      <p><warning>Criar condições exclusivas para pertencer a componentes secundários(por exemplo, apenas a Classe Monge teria Dano Radiante, ou aplicaria Cegueira com a condição Cego.</warning></p>
+      <p><tbold>Problemáticas:</tbold><danger>A sua aplicabilidade depende (e somente) das suas escolhas em Padronização de Jogo e Rolagem.</danger></p>
+      <p><tbold>Adaptações:</tbold><warning>Aplicar a temporização (duração em turnos, por exemplo) diretamente nas condições, sem depender do contexto.</warning></p>
+      <p><warning>Criar condições exclusivas para pertencer a componentes secundários (por exemplo, apenas a Classe Monge teria Dano Radiante, ou aplicaria Cegueira com a condição Cego.</warning></p>
       <p><tbold>Exemplos:</tbold><tarticle>
-        - Duas listas, uma com os Tipos de Dano(Congelante, Perfurante, Cortante, Psiônico...) e a outra com Efeitos(Sangramento, Atordoado, Cego, Voando...).
+        - Duas listas, uma com os Tipos de Dano (Congelante, Perfurante, Cortante, Psiônico...) e a outra com Efeitos (Sangramento, Atordoado, Cego, Voando...).
       </tarticle></p>
     </cmpt>
   </mainpage>

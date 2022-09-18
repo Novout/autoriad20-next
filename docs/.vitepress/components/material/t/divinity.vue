@@ -68,8 +68,8 @@
         />
       </concept>
       <lines>
-        <p>As divindades são seres não-cognoscentes e vivem no meio dos seres vivos(não divinos).</p>
-        <p>O impacto delas(poderes divinos, hierarquia na corte, etc...) dependem diretamente do cenário, e não do sistema.</p>
+        <p>As divindades são seres não-cognoscentes e vivem no meio dos seres vivos (não divinos).</p>
+        <p>O impacto delas (poderes divinos, hierarquia na corte, etc...) dependem diretamente do cenário, e não do sistema.</p>
         <tcontainer :soft="true">
           <p>M: Agora vocês conseguem ver Azerna, uma psiônica nata, desfilando pelas tundras de...</p>
         </tcontainer>

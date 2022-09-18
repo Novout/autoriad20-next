@@ -245,7 +245,7 @@
       </lines>
       <lines>
         <tsub title="Sub-Agrupamento - Padronizando a Lógica" />
-        <p>Determine bônus específicos por cada x valor na árvore. Por exemplo, todo terceiro nível de uma árvore(*-3-*) dá bônus na vida máxima.</p>
+        <p>Determine bônus específicos por cada x valor na árvore. Por exemplo, todo terceiro nível de uma árvore (*-3-*) dá bônus na vida máxima.</p>
         <p>Recomendável para sistemas que exige padronização de recursos, onde esse agrupamento consegue facilitar o equilíbrio de habilidades.</p>
         <tcontainer :soft="false">
           <h3>Classe: Caçador</h3>

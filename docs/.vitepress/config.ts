@@ -4,7 +4,7 @@ import { version } from "../../package.json";
 export default defineConfig({
   lang: 'pt-BR',
   title: `AutoriaD20 - ${version} BETA`,
-  description: 'Sistema genérico, integrável e flexível para o desenvolvimento de jogos D20.',
+  description: 'Documentação genérica, integrável e flexível para o desenvolvimento de regras para jogos D20.',
   lastUpdated: true,
   cleanUrls: 'without-subfolders',
   head: [
@@ -18,7 +18,7 @@ export default defineConfig({
     ['meta', { name: 'msapplication-TileImage', content: '/android-chrome-512x512.png' }],
     ['meta', { name: 'msapplication-TileColor', content: '#C1C9F5' }],
     ['meta', { property: 'og:title', content: 'AutoriaD20' }],
-    ['meta', { property: 'og:description', content: 'Autoria é um sistema genérico para o desenvolvimento de jogos D20.' }],
+    ['meta', { property: 'og:description', content: 'Autoria é uma documentação auxiliar para o desenvolvimento de jogos D20' }],
     ['meta', { property: 'og:url', content: 'https://autoria-website.vercel.app/' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:image', content: '/android-chrome-512x512.png' }],
@@ -28,12 +28,12 @@ export default defineConfig({
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
     ['meta', { name: 'twitter:site', content: 'https://autoria-website.vercel.app/' }],
     ['meta', { name: 'twitter:title', content: 'AutoriaD20' }],
-    ['meta', { name: 'twitter:description', content: 'Autoria é um sistema genérico para o desenvolvimento de jogos D20.' }],
+    ['meta', { name: 'twitter:description', content: 'Autoria é uma documentação auxiliar para o desenvolvimento de jogos D20' }],
     ['meta', { name: 'twitter:image', content: '/android-chrome-512x512.png' }],
     ['meta', { name: 'twitter:image:alt', content: 'Ícone do AutoriaD20' }],
     ['meta', { name: 'theme-color', content: '#C1C9F5' }],
     ['meta', { charset: 'utf-8' }],
-    ['meta', { hid: 'description', name: 'description', content: 'Autoria é um sistema genérico para o desenvolvimento de jogos D20.' }]
+    ['meta', { hid: 'description', name: 'description', content: 'Autoria é uma documentação auxiliar para o desenvolvimento de jogos D20' }]
   ],
   themeConfig: {
     logo: '/android-chrome-512x512.png',

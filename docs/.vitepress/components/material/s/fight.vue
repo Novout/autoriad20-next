@@ -152,7 +152,7 @@
       <lines>
         <tsub title="Sub-Agrupamento - Retardar Rodada" />
         <p>O jogador pode escolher por adiar seu turno até anteriormente ao início da próxima rodada. Caso mais de um jogador adie seu turno, o primeiro que atrasou continua sendo o última da rodada, em um esquema de pilhagem.</p>
-        <p>Isso garante maiores combinações(principalmente da possibilidade de combos) e versatilidade ao jogador.</p>
+        <p>Isso garante maiores combinações (principalmente da possibilidade de combos) e versatilidade ao jogador.</p>
         <tcontainer :soft="true">
           <p>M: Seu turno, Alla.</p>
           <p>J: Hm... prefiro adiar minha rodada, Mestre.</p>
@@ -181,7 +181,7 @@
       </lines>
       <lines>
         <tsub title="Sub-Agrupamento - Exaustão" />
-        <p>Mecânica adicional que permite os jogadores a realizarem ações melhoradas(por terem habilidades que são aprimoradas a gastar exaustão) ou a testes específicos.</p>
+        <p>Mecânica adicional que permite os jogadores a realizarem ações melhoradas (por terem habilidades que são aprimoradas a gastar exaustão) ou a testes específicos.</p>
         <p>Exaustão possui uso único e sua recuperação é determinada por X rodadas.</p>
         <tcontainer :soft="true">
           <p>J: Mestre, irei gastar minha Exaustão para realizar uma ação bônus adicional...</p>

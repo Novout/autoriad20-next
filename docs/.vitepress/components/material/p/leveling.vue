@@ -93,7 +93,7 @@
       </lines>
       <p><tbold>Problemáticas:</tbold><danger>Dificuldade de trazer conteúdo inovador em altos níveis.</danger></p>
       <p><tbold>Adaptações:</tbold><warning>Transforme todo conteúdo não-nivelado em uma possibilidade de reutilizar conteúdo (itens, por exemplo).</warning></p>
-      <tbold>Exemplos:</tbold><tarticle>- Os personagem possuem uma <titalic>Barra de Resiliência</titalic>, onde pode gastar esses pontos para ganhar bônus em rolagem de dados ou realizar uma ação sobrenatural de força ou resistência. A cada nível, todo personagem ganha 1d4(ou 2) adicionalmente e recupera toda a <titalic>Barra de Resiliência</titalic>.</tarticle>
+      <tbold>Exemplos:</tbold><tarticle>- Os personagem possuem uma <titalic>Barra de Resiliência</titalic>, onde pode gastar esses pontos para ganhar bônus em rolagem de dados ou realizar uma ação sobrenatural de força ou resistência. A cada nível, todo personagem ganha 1d4 (ou 2) adicionalmente e recupera toda a <titalic>Barra de Resiliência</titalic>.</tarticle>
     </cmpt>
     <cmpt title="Nivelamento: Pontuação Acumulativa">
       <concept title="Requisitos">
@@ -174,7 +174,7 @@
         A cada novo nível, o personagem ganha X pontos para poder distribuir em uma árvore de escolhas, limitada (ou não) pelas regras impostas do sistema.
         <p>Cada árvore é dividida em um componente secundário, começando "de baixo para cima e da esquerda para direita", dividida em módulos que possuem três números: O primeiro define a sub-árvore (se tiver necessidade), o segundo a altura do módulo e o terceiro a sua posição na altura, da esquerda para a direita. Se uma determinada altura tiver apenas um único módulo, o terceiro valor é desnecessário.</p>
         <info>
-          Esta abordagem é recomendada para cenários que todos os impactantes (raça, classe, origem, por exemplo) são muito diferentes entre si, onde as habilidades são definidas por capacidades específicas(capacidade de voar, salto longo, velocidade) e não genéricas (força, constituição, inteligência).
+          Esta abordagem é recomendada para cenários que todos os impactantes (raça, classe, origem, por exemplo) são muito diferentes entre si, onde as habilidades são definidas por capacidades específicas (capacidade de voar, salto longo, velocidade) e não genéricas (força, constituição, inteligência).
         </info>
         <warning>
           É fortemente recomendado o uso deste componente com outros componentes de Pontuação Acumulativa.
@@ -191,7 +191,7 @@
       <p><warning>Sistemas com muitas árvores poderá exigir maior ganho de pontos por nível.</warning></p>
       <p><info>Árvores não necessariamente dependem de pré-requisitos sobre módulos, tendo eles independentes entre si. Uma boa utilização seria para uma lista de magias, onde todos os módulos possuem o pré-requisito: Classe Conjurador.</info></p>
       <tbold>Exemplos:</tbold>
-      <p><tarticle>A categoria Classe exige 7 árvores, onde cada uma delas possui 3 sub-grupos(arquétipos). A árvore Monge possui três arquétipos no primeiro nível para escolher, definidos como 1-1, 2-1 e 3-1. Todo segundo nível possui três alternativas, então determinando (1-2-1, 1-2-2, 1-2-3),  (2-2-1, 2-2-2, 2-2-3),  (3-2-1, 3-2-2, 3-2-3).</tarticle></p>
+      <p><tarticle>A categoria Classe exige 7 árvores, onde cada uma delas possui 3 sub-grupos (arquétipos). A árvore Monge possui três arquétipos no primeiro nível para escolher, definidos como 1-1, 2-1 e 3-1. Todo segundo nível possui três alternativas, então determinando (1-2-1, 1-2-2, 1-2-3),  (2-2-1, 2-2-2, 2-2-3),  (3-2-1, 3-2-2, 3-2-3).</tarticle></p>
       <tarticle>- Utilizando o <titalic>Sub-Agrupamento - Inicialização de Escolhas</titalic>, o personagem começa no nível 1 com 11 pontos disponíveis, distribuindo 5 pontos em raça, 5 em origem e 1 em classe. Por novo nível, ganha um ponto adicional para distribuir na classe.</tarticle>
     </cmpt>
     <cmpt title="Nivelamento: Fixo">

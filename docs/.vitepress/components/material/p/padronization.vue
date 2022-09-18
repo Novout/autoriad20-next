@@ -115,7 +115,7 @@
       </lines>
       <lines>
         <tsub title="Sub-Agrupamento - Recurso Específico" />
-        <p>Recursos de componentes(itens, classes, raça, etc...) pode dar valor de recurso baseado em condições, como biomas, inimigos de determinada raça no combate, horário do dia, etc...</p>
+        <p>Recursos de componentes (itens, classes, raça, etc...) pode dar valor de recurso baseado em condições, como biomas, inimigos de determinada raça no combate, horário do dia, etc...</p>
         <p><danger>Não é recomendado utilizar com muitos componentes que cedem bônus, pois pode desbalancear totalmente determinadas ações individuais.</danger></p>
         <tcontainer :soft="true">
           <p>J: ... esse Teste de Força é com +2 devido ao Ambiente Difícil, totalizando +6...</p>

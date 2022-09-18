@@ -8,7 +8,7 @@ Se você já possui uma plena noção sobre as necessidades do cenário e do mod
 
 ## Lista de Perguntas
 
-- O sistema é integrado(cRPG, por exemplo) ou referencial(RPG de Mesa, por exemplo)?
+- O sistema é integrado (cRPG, por exemplo) ou referencial (RPG de Mesa, por exemplo)?
 - - Se for integrado, descreva como o sistema irá afetar a experiência geral do usuário, não apenas na *gameplay*.
 - - Se for referencial, descreva os principais itens necessários para o sistema ter a cara que pretende.
 
@@ -63,13 +63,13 @@ Se você já possui uma plena noção sobre as necessidades do cenário e do mod
 
 <spacing size="12" />
 
-- Que nível de conhecimento do cenário(se existir) o jogador precisa ter para um desempenho satisfatório em termos de *gameplay*?
+- Que nível de conhecimento do cenário (se existir) o jogador precisa ter para um desempenho satisfatório em termos de *gameplay*?
 - - Exemplo: *Muito Alto, pois os deuses precisam ser convencidos para enviarem ajuda...*
 - - Exemplo: *Mediano, pois a história dos locais afeta os NPC's e como reagem aos estrangeiros, mas nada que o Mestre ou Narrador não consiga explicar sucintamente sobre a região antes dos diálogos rolarem...*
 
 <spacing size="12" />
 
-- Que nível de conhecimento do cenário(se existir) o jogador precisa ter para um desempenho satisfatório em termos de *roleplay*?
+- Que nível de conhecimento do cenário (se existir) o jogador precisa ter para um desempenho satisfatório em termos de *roleplay*?
 - - Exemplo: *Nenhum, pois o cenário demonstra a história sequencialmente, entender as características perderia a graça para o jogador...*
 - - Exemplo: *Mediano, pois a história dos locais afeta os inimigos da região...*
 
@@ -97,7 +97,7 @@ Como exemplo, respondemos as perguntas de um possível sistema baseado em um cen
 
 <spacing size="15" />
 
-*O sistema é integrado(cRPG, por exemplo) ou referencial(RPG de Mesa, por exemplo)?*
+*O sistema é integrado (cRPG, por exemplo) ou referencial (RPG de Mesa, por exemplo)?*
 
 R: Referencial.
 
@@ -127,7 +127,7 @@ R: Em suma, depende do nivelamento, em alto nível conseguem ser comparados a se
 
 <spacing size="15" />
 
-*Os personagens(se existirem) terão uma diversidade de conteúdo?*
+*Os personagens (se existirem) terão uma diversidade de conteúdo?*
 
 R: Bastante, como raças, classes, origem, habilidades, perícias, talentos e outros opcionais.
 
@@ -157,7 +157,7 @@ R: Baixo, pois não se diverge muito dos cenários tradicionais.
 
 <spacing size="15" />
 
-*Que nível de conhecimento do cenário(se existir) o jogador precisa ter para um desempenho satisfatório em termos de roleplay?*
+*Que nível de conhecimento do cenário (se existir) o jogador precisa ter para um desempenho satisfatório em termos de roleplay?*
 
 R: Baixo, pois não se diverge muito dos cenários tradicionais.
 

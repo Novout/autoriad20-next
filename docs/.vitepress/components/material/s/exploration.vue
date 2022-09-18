@@ -90,7 +90,7 @@
       <p><tbold>Problemáticas:</tbold><danger>Abordagem simplista e que causará problemas para cenários onde o clima e terreno são relevantes para a história.</danger></p>
       <p><tbold>Adaptações:</tbold><warning>Componentes terciários de <titalic>Condições</titalic> podem ajudar na criação das regras.</warning></p>
       <p><tbold>Exemplos:</tbold><tarticle>
-        - Criação de quatro biomas(neve, deserto, floresta temperada, selva) onde cada uma possui interações com certas raças que são nativas destes lugares.
+        - Criação de quatro biomas (neve, deserto, floresta temperada, selva) onde cada uma possui interações com certas raças que são nativas destes lugares.
       </tarticle></p>
     </cmpt>
   </mainpage>

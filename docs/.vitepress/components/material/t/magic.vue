@@ -76,7 +76,7 @@
         />
       </concept>
       <lines>
-        <p>Ao chegar em X nível(ou qualquer outro tipo de marcador), desbloqueia uma lista de magias disponíveis.</p>
+        <p>Ao chegar em X nível (ou qualquer outro tipo de marcador), desbloqueia uma lista de magias disponíveis.</p>
         <p>Cada magia possui um título, descrição, como podem ser conjuradas e efeitos específicos.</p>
         <p>Os personagens podem usar qualquer magia da lista.</p>
         <tcontainer :soft="false">

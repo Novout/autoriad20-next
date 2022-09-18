@@ -92,10 +92,6 @@ Demonstrações de como aplicar o módulo na prática. Os exemplos são extensos
 Todos os exemplos disponibilizam um conteúdo finalizado em utilização já pronta para facilitar a interpretação por parte do criador.
 </info>
 
-<danger>
-Os exemplos jamais irão ditar a forma exata que o componente deve ser ditado.
-</danger>
-
 ### Adaptações
 
 Demonstrações de como manter a compatibilidade com outros módulos.

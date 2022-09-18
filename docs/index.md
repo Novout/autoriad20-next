@@ -7,7 +7,7 @@ titleTemplate: AutoriaD20 - Sistema D20 Flexível e Escalável
 
 hero:
   name: AutoriaD20
-  text: Sistema para desenvolvimento de jogos D20
+  text: Documentação auxiliar para o desenvolvimento de jogos D20
   tagline: Crie você mesmo. É fácil.
   image:
     src: /logo.svg
