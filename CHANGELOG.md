@@ -1,6 +1,10 @@
-# Changelog (9/17/2022)
+# Changelog (9/18/2022)
 
 Changelog was created by [Generi](https://github.com/Novout/generi). Any questions, consult the documentation.
+
+### v0.5.4
+
+* **fix:** typos [4a16d1c]
 
 ### v0.5.3
 
