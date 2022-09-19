@@ -21,6 +21,8 @@ features:
     details: Construa seu próprio sistema D20 sem nenhuma restrição comercial.
   - title: Flexível
     details: Adapte qualquer regra para os mais diversos tipos de cenários.
+  - title: Contribue
+    details: É possível sugerir alteraçoes para qualquer página.
   - title: Documentação-Aplicativo
     details: Acesse este site sem precisar estar conectado à internet.
 ---
