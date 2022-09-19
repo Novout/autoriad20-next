@@ -11,7 +11,7 @@ hero:
   tagline: Crie você mesmo. É fácil.
   image:
     src: /logo.svg
-    alt: AutoriaD20
+    alt: Logo do AutoriaD20, consistindo-se em um centro circular subdividido em duas partes paralelas nos quatro cantos laterais.
   actions:
     - theme: brand
       text: Início

@@ -18,8 +18,8 @@ Por conta disso, foi necessário a construção de uma base sólida e eficaz par
 
 ## Expectativas para a versão 1.0
 
-- Playground para a modelagem e escolha de componentes.
-- TTRPG de Autoria usando apenas os componentes *À Moda da Casa*.
-- Novos Componentes à disposição, principalmente para outros estilos de jogos que não sejam TTRPG.
-- Exemplificações mais abrangentes.
+- Playground para a modelagem e escolha de componentes;
+- TTRPG de Autoria usando somente os componentes *À Moda da Casa*;
+- Novos Componentes à disposição, principalmente para outros estilos de jogos que não sejam TTRPG;
+- Exemplificações mais abrangentes;
 - Integrações para sistemas de TTRPG, como: D&D, Pathfinder, Tormenta, entre outros.
