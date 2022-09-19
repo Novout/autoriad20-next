@@ -1,6 +1,10 @@
-# Changelog (9/18/2022)
+# Changelog (19/09/2022)
 
 Changelog was created by [Generi](https://github.com/Novout/generi). Any questions, consult the documentation.
+
+### v0.6.0
+
+* **chore:** index improvements [79233b1]
 
 ### v0.5.4
 
