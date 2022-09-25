@@ -1,5 +1,6 @@
 import { h } from 'vue'
 import { inBrowser } from 'vitepress'
+import { installSchemaOrg } from '@vueuse/schema-org-vite/vitepress'
 import Theme from 'vitepress/theme'
 import '../style/main.css'
 import '../style/vars.css'
@@ -49,50 +50,55 @@ import HomeSearchBar from '../components/pages/HomeSearchBar.vue'
 
 if (inBrowser)
   import('./pwa')
+  
 
 export default {
   ...Theme,
-  enhanceApp({ app }: any) {
-    app.component('Spacing', Spacing)
-    app.component('spacing', Spacing)
-    app.component('badge', Badge)
-    app.component('cmpt', Cmpt)
-    app.component('concept', Concept)
-    app.component('lines', Lines)
-    app.component('mainpage', Mainpage)
-    app.component('tarticle', Tarticle)
-    app.component('tbold', Tbold)
-    app.component('tcontainer', Tcontainer)
-    app.component('titalic', Titalic)
-    app.component('tlink', Tlink)
-    app.component('tsub', Tsub)
-    app.component('danger', Danger)
-    app.component('warning', Warning)
-    app.component('info', Info)
+  enhanceApp(ctx: any) {
+    installSchemaOrg(ctx, {
+      canonicalHost: 'https://autoria20.com/',
+      defaultLanguage: 'pt-BR'
+    })
+    ctx.app.component('Spacing', Spacing)
+    ctx.app.component('spacing', Spacing)
+    ctx.app.component('badge', Badge)
+    ctx.app.component('cmpt', Cmpt)
+    ctx.app.component('concept', Concept)
+    ctx.app.component('lines', Lines)
+    ctx.app.component('mainpage', Mainpage)
+    ctx.app.component('tarticle', Tarticle)
+    ctx.app.component('tbold', Tbold)
+    ctx.app.component('tcontainer', Tcontainer)
+    ctx.app.component('titalic', Titalic)
+    ctx.app.component('tlink', Tlink)
+    ctx.app.component('tsub', Tsub)
+    ctx.app.component('danger', Danger)
+    ctx.app.component('warning', Warning)
+    ctx.app.component('info', Info)
 
-    app.component('p-guide', PGuide)
-    app.component('p-leveling', PLeveling)
-    app.component('p-padronization', PPadronization)
-    app.component('p-roleplay', PRoleplay)
-    app.component('p-roll', PRoll)
-    app.component('p-vitality', PVitality)
+    ctx.app.component('p-guide', PGuide)
+    ctx.app.component('p-leveling', PLeveling)
+    ctx.app.component('p-padronization', PPadronization)
+    ctx.app.component('p-roleplay', PRoleplay)
+    ctx.app.component('p-roll', PRoll)
+    ctx.app.component('p-vitality', PVitality)
 
-    app.component('s-class', SClass)
-    app.component('s-exploration', SExploration)
-    app.component('s-fight', SFight)
-    app.component('s-origin', SOrigin)
-    app.component('s-race', SRace)
+    ctx.app.component('s-class', SClass)
+    ctx.app.component('s-exploration', SExploration)
+    ctx.app.component('s-fight', SFight)
+    ctx.app.component('s-origin', SOrigin)
+    ctx.app.component('s-race', SRace)
 
-    app.component('t-conditions', TConditions)
-    app.component('t-divinity', TDivinity)
-    app.component('t-equipments', TEquipments)
-    app.component('t-magic', TMagic)
-    app.component('t-war', TWar)
+    ctx.app.component('t-conditions', TConditions)
+    ctx.app.component('t-divinity', TDivinity)
+    ctx.app.component('t-equipments', TEquipments)
+    ctx.app.component('t-magic', TMagic)
+    ctx.app.component('t-war', TWar)
 
-    app.component('extra-partners', ExtraPartners)
+    ctx.app.component('extra-partners', ExtraPartners)
 
-    app.component('components-example', ComponentsExample)
-    app.component('components-example-item', ComponentsExampleItem)
+    ctx.app.component('components-example', ComponentsExample)
+    ctx.app.component('components-example-item', ComponentsExampleItem)
   },
   Layout() {
     return h(Theme.Layout, null, {

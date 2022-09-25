@@ -12,6 +12,9 @@
     "major": "generi log major"
   },
   "devDependencies": {
+    "@vueuse/head": "^0.7.12",
+    "@vueuse/schema-org": "^1.1.0-beta.4",
+    "@vueuse/schema-org-vite": "^1.1.0-beta.4",
     "fast-glob": "^3.2.12",
     "generi": "0.3.0",
     "pathe": "^0.3.7",
