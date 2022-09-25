@@ -1,6 +1,11 @@
-# Changelog (19/09/2022)
+# Changelog (25/09/2022)
 
 Changelog was created by [Generi](https://github.com/Novout/generi). Any questions, consult the documentation.
+
+### v0.6.3
+
+* **feat(app):** added schema.org [6d3d2ab]
+* **chore:** site url in seo [3699d9a]
 
 ### v0.6.2
 
