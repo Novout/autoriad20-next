@@ -1,6 +1,4 @@
 import { h } from 'vue'
-import { inBrowser } from 'vitepress'
-import { installSchemaOrg } from '@vueuse/schema-org-vite/vitepress'
 import Theme from 'vitepress/theme'
 import '../style/main.css'
 import '../style/vars.css'
@@ -51,10 +49,6 @@ import HomeSearchBar from '../components/pages/HomeSearchBar.vue'
 export default {
   ...Theme,
   enhanceApp(ctx: any) {
-    installSchemaOrg(ctx, {
-      canonicalHost: 'https://autoria20.com/',
-      defaultLanguage: 'pt-BR'
-    })
     ctx.app.component('Spacing', Spacing)
     ctx.app.component('spacing', Spacing)
     ctx.app.component('badge', Badge)
