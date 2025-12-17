@@ -48,10 +48,6 @@ import ComponentsExampleItem from '../components/pages/componentsexampleitem.vue
 import ExtraPartners from '../components/pages/ExtraPartners.vue'
 import HomeSearchBar from '../components/pages/HomeSearchBar.vue'
 
-if (inBrowser)
-  import('./pwa')
-  
-
 export default {
   ...Theme,
   enhanceApp(ctx: any) {

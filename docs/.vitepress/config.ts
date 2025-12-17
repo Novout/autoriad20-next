@@ -6,7 +6,6 @@ export default defineConfig({
   title: `AutoriaD20 - ${version} BETA`,
   description: 'Documentação genérica, integrável e flexível para o desenvolvimento de regras para jogos D20.',
   lastUpdated: true,
-  cleanUrls: 'without-subfolders',
   head: [
     ['link', { rel: 'manifest', href: '/manifest.webmanifest'}],
     ['link', { rel: 'icon', href: '/favicon.ico' }],

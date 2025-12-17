@@ -19,9 +19,8 @@
     "generi": "0.3.0",
     "pathe": "^0.3.7",
     "rimraf": "^3.0.2",
-    "unocss": "^0.45.21",
+    "unocss": "^66.5.10",
     "vite": "^3.1.1",
-    "vite-plugin-pwa": "^0.12.7",
     "vitepress": "^1.0.0-alpha.15",
     "vue": "^3.2.39"
   },
